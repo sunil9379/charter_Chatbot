@@ -1,0 +1,21 @@
+2025-07-10 14:25:24,852 - INFO - Test initiated to update firmware version - 26
+2025-07-10 14:25:24,853 - INFO - Updating the firmware for device Test_ata001 and firmware Test_ata001-P20-040625-2025.5 - 56
+2025-07-10 14:25:25,089 - INFO - Firmware Test_ata001-P20-040625-2025.5 updated successfully
+status code: 201
+response: "updated firmware in document with id '686f7fe451a712964dae85d0'" - 62
+2025-07-10 14:25:25,092 - INFO - Updating the firmware for device Test_mta001 and firmware Test_mta001-P20-040625-2025.5 - 56
+2025-07-10 14:25:25,333 - INFO - Firmware Test_mta001-P20-040625-2025.5 updated successfully
+status code: 201
+response: "updated firmware in document with id '686f7fe4ff850ba1d2e2f13a'" - 62
+2025-07-10 14:25:25,336 - INFO - Updating the firmware for device Test_cwl001 and firmware Test_cwl001-P20-040625-2025.5 - 56
+2025-07-10 14:25:25,573 - INFO - Firmware Test_cwl001-P20-040625-2025.5 updated successfully
+status code: 201
+response: "updated firmware in document with id '686f7fe4918ff0938be2f13a'" - 62
+2025-07-10 14:25:25,575 - INFO - Updating the firmware for device Test_onu001 and firmware Test_onu001-P20-040625-2025.5 - 56
+2025-07-10 14:25:25,813 - INFO - Firmware Test_onu001-P20-040625-2025.5 updated successfully
+status code: 201
+response: "updated firmware in document with id '686f7fe422a2615e7da45927'" - 62
+2025-07-10 14:25:25,815 - INFO - Updating the firmware for device Test_snu001 and firmware Test_snu001-P20-040625-2025.5 - 56
+2025-07-10 14:25:26,048 - INFO - Firmware Test_snu001-P20-040625-2025.5 updated successfully
+status code: 201
+response: "updated firmware in document with id '686f7fe5918ff0938be2f13b'" - 62

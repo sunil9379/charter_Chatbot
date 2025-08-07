@@ -1,0 +1,92 @@
+2025-07-02 21:56:05,670 - get_aggregate_view - INFO - Test initiated for aggregate view v1 - 35
+2025-07-02 21:56:05,674 - get_aggregate_view - INFO - Imported the payload and config file - 49
+2025-07-02 21:56:05,674 - get_aggregate_view - INFO - ============================================ - 81
+2025-07-02 21:56:05,674 - get_aggregate_view - INFO - Initiating request action for Test_ata001 - 82
+2025-07-02 21:56:05,675 - get_aggregate_view - INFO - *************************** - 84
+2025-07-02 21:56:05,675 - get_aggregate_view - INFO - for v1 endpoints - 85
+2025-07-02 21:56:06,018 - get_aggregate_view - INFO - Api run Success - 92
+2025-07-02 21:56:06,018 - get_aggregate_view - INFO - V1 Response code: 200 - 93
+2025-07-02 21:56:06,018 - get_aggregate_view - INFO - V1 Response body: {"base":{"twc":{"Ubee|Test_ata001|Test_ata001-P20-041025-2025.1":"autoprov device-class=ata ipv6-cpe smh throughput-cap=1G voice-class=ata"},"bhn":{"Ubee|Test_ata001|Test_ata001-P20-041025-2025.1":"autoprov device-class=ata ipv6-cpe smh throughput-cap=1G voice-class=ata"}},"aggregate":{"twc":{"Ubee|Test_ata001|Test_ata001-P20-041025-2025.1":"autoprov device-class=ata ipv6-cpe smh throughput-cap=1G voice-class=ata"},"bhn":{"Ubee|Test_ata001|Test_ata001-P20-041025-2025.1":"autoprov device-class=ata ipv6-cpe smh throughput-cap=1G voice-class=ata"}}} - 94
+2025-07-02 21:56:06,018 - get_aggregate_view - INFO - Validation for v1 - 101
+2025-07-02 21:56:06,018 - get_aggregate_view - INFO - Validation for bhn tag of Test_ata001 succeeded at v1  - 113
+2025-07-02 21:56:06,018 - get_aggregate_view - INFO - Validation for twc tag of Test_ata001 succeeded at v1 - 129
+2025-07-02 21:56:06,018 - get_aggregate_view - INFO - ***************************
+For v2 endpoint - 138
+2025-07-02 21:56:06,510 - get_aggregate_view - INFO - Api run Success - 145
+2025-07-02 21:56:06,510 - get_aggregate_view - INFO - V2 Response code: 200 - 146
+2025-07-02 21:56:06,510 - get_aggregate_view - INFO - V2 Response body: {"base":{"twc":{"Ubee|Test_ata001|Test_ata001-P20-041025-2025.1":"autoprov device-class=ata ipv6-cpe smh throughput-cap=1G voice-class=ata"},"bhn":{"Ubee|Test_ata001|Test_ata001-P20-041025-2025.1":"autoprov device-class=ata ipv6-cpe smh throughput-cap=1G voice-class=ata"}},"aggregate":{"twc":{"Ubee|Test_ata001|Test_ata001-P20-041025-2025.1":"autoprov device-class=ata ipv6-cpe smh throughput-cap=1G voice-class=ata"},"bhn":{"Ubee|Test_ata001|Test_ata001-P20-041025-2025.1":"autoprov device-class=ata ipv6-cpe smh throughput-cap=1G voice-class=ata"}}} - 147
+2025-07-02 21:56:06,511 - get_aggregate_view - INFO - Validation for v2 - 154
+2025-07-02 21:56:06,511 - get_aggregate_view - INFO - Validation for bhn tag of Test_ata001 succeeded at v2  - 166
+2025-07-02 21:56:06,511 - get_aggregate_view - INFO - Validation for twc tag of Test_ata001 succeeded at v2 - 182
+2025-07-02 21:56:06,511 - get_aggregate_view - INFO - ============================================ - 81
+2025-07-02 21:56:06,511 - get_aggregate_view - INFO - Initiating request action for Test_mta001 - 82
+2025-07-02 21:56:06,511 - get_aggregate_view - INFO - *************************** - 84
+2025-07-02 21:56:06,511 - get_aggregate_view - INFO - for v1 endpoints - 85
+2025-07-02 21:56:06,844 - get_aggregate_view - INFO - Api run Success - 92
+2025-07-02 21:56:06,844 - get_aggregate_view - INFO - V1 Response code: 200 - 93
+2025-07-02 21:56:06,844 - get_aggregate_view - INFO - V1 Response body: {"base":{"twc":{"Technicolor|Test_mta001|Test_mta001-P20-041025-2025.1":"iperf-b=1G iperf-header=iperf iperf-l=1450 iperf-udp ipv6-cm ipv6-cpe smh speedtest=iperf3 tr69 tr69class=cm"},"bhn":{"Technicolor|Test_mta001|Test_mta001-P20-041025-2025.1":"iperf-b=1G iperf-header=iperf iperf-l=1450 iperf-udp ipv6-cm ipv6-cpe smh speedtest=iperf3 tr69 tr69class=cm"}},"aggregate":{"twc":{"Technicolor|Test_mta001|Test_mta001-P20-041025-2025.1":"iperf-b=1G iperf-header=iperf iperf-l=1450 iperf-udp ipv6-cm ipv6-cpe smh speedtest=iperf3 tr69 tr69class=cm"},"bhn":{"Technicolor|Test_mta001|Test_mta001-P20-041025-2025.1":"iperf-b=1G iperf-header=iperf iperf-l=1450 iperf-udp ipv6-cm ipv6-cpe smh speedtest=iperf3 tr69 tr69class=cm"}}} - 94
+2025-07-02 21:56:06,845 - get_aggregate_view - INFO - Validation for v1 - 101
+2025-07-02 21:56:06,845 - get_aggregate_view - INFO - Validation for bhn tag of Test_mta001 succeeded at v1  - 113
+2025-07-02 21:56:06,845 - get_aggregate_view - INFO - Validation for twc tag of Test_mta001 succeeded at v1 - 129
+2025-07-02 21:56:06,845 - get_aggregate_view - INFO - ***************************
+For v2 endpoint - 138
+2025-07-02 21:56:07,191 - get_aggregate_view - INFO - Api run Success - 145
+2025-07-02 21:56:07,191 - get_aggregate_view - INFO - V2 Response code: 200 - 146
+2025-07-02 21:56:07,191 - get_aggregate_view - INFO - V2 Response body: {"base":{"twc":{"Technicolor|Test_mta001|Test_mta001-P20-041025-2025.1":"iperf-b=1G iperf-header=iperf iperf-l=1450 iperf-udp ipv6-cm ipv6-cpe smh speedtest=iperf3 tr69 tr69class=cm"},"bhn":{"Technicolor|Test_mta001|Test_mta001-P20-041025-2025.1":"iperf-b=1G iperf-header=iperf iperf-l=1450 iperf-udp ipv6-cm ipv6-cpe smh speedtest=iperf3 tr69 tr69class=cm"}},"aggregate":{"twc":{"Technicolor|Test_mta001|Test_mta001-P20-041025-2025.1":"iperf-b=1G iperf-header=iperf iperf-l=1450 iperf-udp ipv6-cm ipv6-cpe smh speedtest=iperf3 tr69 tr69class=cm"},"bhn":{"Technicolor|Test_mta001|Test_mta001-P20-041025-2025.1":"iperf-b=1G iperf-header=iperf iperf-l=1450 iperf-udp ipv6-cm ipv6-cpe smh speedtest=iperf3 tr69 tr69class=cm"}}} - 147
+2025-07-02 21:56:07,191 - get_aggregate_view - INFO - Validation for v2 - 154
+2025-07-02 21:56:07,191 - get_aggregate_view - INFO - Validation for bhn tag of Test_mta001 succeeded at v2  - 166
+2025-07-02 21:56:07,191 - get_aggregate_view - INFO - Validation for twc tag of Test_mta001 succeeded at v2 - 182
+2025-07-02 21:56:07,191 - get_aggregate_view - INFO - ============================================ - 81
+2025-07-02 21:56:07,191 - get_aggregate_view - INFO - Initiating request action for Test_cwl001 - 82
+2025-07-02 21:56:07,191 - get_aggregate_view - INFO - *************************** - 84
+2025-07-02 21:56:07,191 - get_aggregate_view - INFO - for v1 endpoints - 85
+2025-07-02 21:56:07,545 - get_aggregate_view - INFO - Api run Success - 92
+2025-07-02 21:56:07,545 - get_aggregate_view - INFO - V1 Response code: 200 - 93
+2025-07-02 21:56:07,545 - get_aggregate_view - INFO - V1 Response body: {"base":{"twc":{"Motorola|Test_cwl001|Test_cwl001-P20-040625-2025.1":"autoprov device-class=cwl ipv6-cpe smh throughput-cap=1G voice-class=cwl"},"bhn":{"Motorola|Test_cwl001|Test_cwl001-P20-040625-2025.1":"autoprov device-class=cwl ipv6-cpe smh throughput-cap=1G voice-class=cwl"}},"aggregate":{"twc":{"Motorola|Test_cwl001|Test_cwl001-P20-040625-2025.1":"autoprov device-class=cwl ipv6-cpe smh throughput-cap=1G voice-class=cwl"},"bhn":{"Motorola|Test_cwl001|Test_cwl001-P20-040625-2025.1":"autoprov device-class=cwl ipv6-cpe smh throughput-cap=1G voice-class=cwl"}}} - 94
+2025-07-02 21:56:07,545 - get_aggregate_view - INFO - Validation for v1 - 101
+2025-07-02 21:56:07,545 - get_aggregate_view - INFO - Validation for bhn tag of Test_cwl001 succeeded at v1  - 113
+2025-07-02 21:56:07,546 - get_aggregate_view - INFO - Validation for twc tag of Test_cwl001 succeeded at v1 - 129
+2025-07-02 21:56:07,546 - get_aggregate_view - INFO - ***************************
+For v2 endpoint - 138
+2025-07-02 21:56:07,917 - get_aggregate_view - INFO - Api run Success - 145
+2025-07-02 21:56:07,918 - get_aggregate_view - INFO - V2 Response code: 200 - 146
+2025-07-02 21:56:07,918 - get_aggregate_view - INFO - V2 Response body: {"base":{"twc":{"Motorola|Test_cwl001|Test_cwl001-P20-040625-2025.1":"autoprov device-class=cwl ipv6-cpe smh throughput-cap=1G voice-class=cwl"},"bhn":{"Motorola|Test_cwl001|Test_cwl001-P20-040625-2025.1":"autoprov device-class=cwl ipv6-cpe smh throughput-cap=1G voice-class=cwl"}},"aggregate":{"twc":{"Motorola|Test_cwl001|Test_cwl001-P20-040625-2025.1":"autoprov device-class=cwl ipv6-cpe smh throughput-cap=1G voice-class=cwl"},"bhn":{"Motorola|Test_cwl001|Test_cwl001-P20-040625-2025.1":"autoprov device-class=cwl ipv6-cpe smh throughput-cap=1G voice-class=cwl"}}} - 147
+2025-07-02 21:56:07,918 - get_aggregate_view - INFO - Validation for v2 - 154
+2025-07-02 21:56:07,918 - get_aggregate_view - INFO - Validation for bhn tag of Test_cwl001 succeeded at v2  - 166
+2025-07-02 21:56:07,918 - get_aggregate_view - INFO - Validation for twc tag of Test_cwl001 succeeded at v2 - 182
+2025-07-02 21:56:07,918 - get_aggregate_view - INFO - ============================================ - 81
+2025-07-02 21:56:07,918 - get_aggregate_view - INFO - Initiating request action for Test_onu001 - 82
+2025-07-02 21:56:07,918 - get_aggregate_view - INFO - *************************** - 84
+2025-07-02 21:56:07,918 - get_aggregate_view - INFO - for v1 endpoints - 85
+2025-07-02 21:56:08,162 - get_aggregate_view - INFO - Api run Success - 92
+2025-07-02 21:56:08,162 - get_aggregate_view - INFO - V1 Response code: 200 - 93
+2025-07-02 21:56:08,162 - get_aggregate_view - INFO - V1 Response body: {"base":{"twc":{"ALCATEL|Test_onu001|*":"autoprov device-class=onu ipv6-cpe smh throughput-cap=1G voice-class=onu","ALCATEL|Test_onu001|Test_onu001-P20-041025-2025.1":"autoprov device-class=onu ipv6-cpe smh throughput-cap=1G voice-class=onu"},"bhn":{"ALCATEL|Test_onu001|*":"autoprov device-class=onu ipv6-cpe smh throughput-cap=1G voice-class=onu","ALCATEL|Test_onu001|Test_onu001-P20-041025-2025.1":"autoprov device-class=onu ipv6-cpe smh throughput-cap=1G voice-class=onu"}},"aggregate":{"twc":{"ALCATEL|Test_onu001|*":"autoprov device-class=onu ipv6-cpe smh throughput-cap=1G voice-class=onu","ALCATEL|Test_onu001|Test_onu001-P20-041025-2025.1":"autoprov device-class=onu ipv6-cpe smh throughput-cap=1G voice-class=onu"},"bhn":{"ALCATEL|Test_onu001|*":"autoprov device-class=onu ipv6-cpe smh throughput-cap=1G voice-class=onu","ALCATEL|Test_onu001|Test_onu001-P20-041025-2025.1":"autoprov device-class=onu ipv6-cpe smh throughput-cap=1G voice-class=onu"}}} - 94
+2025-07-02 21:56:08,162 - get_aggregate_view - INFO - Validation for v1 - 101
+2025-07-02 21:56:08,163 - get_aggregate_view - INFO - Validation for bhn tag of Test_onu001 succeeded at v1  - 113
+2025-07-02 21:56:08,163 - get_aggregate_view - INFO - Validation for twc tag of Test_onu001 succeeded at v1 - 129
+2025-07-02 21:56:08,163 - get_aggregate_view - INFO - ***************************
+For v2 endpoint - 138
+2025-07-02 21:56:08,427 - get_aggregate_view - INFO - Api run Success - 145
+2025-07-02 21:56:08,428 - get_aggregate_view - INFO - V2 Response code: 200 - 146
+2025-07-02 21:56:08,428 - get_aggregate_view - INFO - V2 Response body: {"base":{"twc":{"ALCATEL|Test_onu001|*":"autoprov device-class=onu ipv6-cpe smh throughput-cap=1G voice-class=onu","ALCATEL|Test_onu001|Test_onu001-P20-041025-2025.1":"autoprov device-class=onu ipv6-cpe smh throughput-cap=1G voice-class=onu"},"bhn":{"ALCATEL|Test_onu001|*":"autoprov device-class=onu ipv6-cpe smh throughput-cap=1G voice-class=onu","ALCATEL|Test_onu001|Test_onu001-P20-041025-2025.1":"autoprov device-class=onu ipv6-cpe smh throughput-cap=1G voice-class=onu"}},"aggregate":{"twc":{"ALCATEL|Test_onu001|*":"autoprov device-class=onu ipv6-cpe smh throughput-cap=1G voice-class=onu","ALCATEL|Test_onu001|Test_onu001-P20-041025-2025.1":"autoprov device-class=onu ipv6-cpe smh throughput-cap=1G voice-class=onu"},"bhn":{"ALCATEL|Test_onu001|*":"autoprov device-class=onu ipv6-cpe smh throughput-cap=1G voice-class=onu","ALCATEL|Test_onu001|Test_onu001-P20-041025-2025.1":"autoprov device-class=onu ipv6-cpe smh throughput-cap=1G voice-class=onu"}}} - 147
+2025-07-02 21:56:08,428 - get_aggregate_view - INFO - Validation for v2 - 154
+2025-07-02 21:56:08,428 - get_aggregate_view - INFO - Validation for bhn tag of Test_onu001 succeeded at v2  - 166
+2025-07-02 21:56:08,428 - get_aggregate_view - INFO - Validation for twc tag of Test_onu001 succeeded at v2 - 182
+2025-07-02 21:56:08,428 - get_aggregate_view - INFO - ============================================ - 81
+2025-07-02 21:56:08,428 - get_aggregate_view - INFO - Initiating request action for Test_snu001 - 82
+2025-07-02 21:56:08,428 - get_aggregate_view - INFO - *************************** - 84
+2025-07-02 21:56:08,428 - get_aggregate_view - INFO - for v1 endpoints - 85
+2025-07-02 21:56:08,717 - get_aggregate_view - INFO - Api run Success - 92
+2025-07-02 21:56:08,717 - get_aggregate_view - INFO - V1 Response code: 200 - 93
+2025-07-02 21:56:08,717 - get_aggregate_view - INFO - V1 Response body: {"base":{"twc":{"Humax|Test_snu001|*":"autoprov epta-proxy-firmware-upgrade=EBBU epta-speedtest=iperf3 iperf-header=IPERF iperf-ipv6 ipv6-cm ipv6-cpe s-onu tr69 tr69class=iata voice-class=s-onu","Humax|Test_snu001|Test_snu001-P20-041025-2025.1":"autoprov epta-proxy-firmware-upgrade=EBBU epta-speedtest=iperf3 iperf-header=IPERF iperf-ipv6 ipv6-cm ipv6-cpe s-onu tr69 tr69class=iata voice-class=s-onu"},"bhn":{"Humax|Test_snu001|*":"autoprov epta-proxy-firmware-upgrade=EBBU epta-speedtest=iperf3 iperf-header=IPERF iperf-ipv6 ipv6-cm ipv6-cpe s-onu tr69 tr69class=iata voice-class=s-onu","Humax|Test_snu001|Test_snu001-P20-041025-2025.1":"autoprov epta-proxy-firmware-upgrade=EBBU epta-speedtest=iperf3 iperf-header=IPERF iperf-ipv6 ipv6-cm ipv6-cpe s-onu tr69 tr69class=iata voice-class=s-onu"}},"aggregate":{"twc":{"Humax|Test_snu001|*":"autoprov epta-proxy-firmware-upgrade=EBBU epta-speedtest=iperf3 iperf-header=IPERF iperf-ipv6 ipv6-cm ipv6-cpe s-onu tr69 tr69class=iata voice-class=s-onu","Humax|Test_snu001|Test_snu001-P20-041025-2025.1":"autoprov epta-proxy-firmware-upgrade=EBBU epta-speedtest=iperf3 iperf-header=IPERF iperf-ipv6 ipv6-cm ipv6-cpe s-onu tr69 tr69class=iata voice-class=s-onu"},"bhn":{"Humax|Test_snu001|*":"autoprov epta-proxy-firmware-upgrade=EBBU epta-speedtest=iperf3 iperf-header=IPERF iperf-ipv6 ipv6-cm ipv6-cpe s-onu tr69 tr69class=iata voice-class=s-onu","Humax|Test_snu001|Test_snu001-P20-041025-2025.1":"autoprov epta-proxy-firmware-upgrade=EBBU epta-speedtest=iperf3 iperf-header=IPERF iperf-ipv6 ipv6-cm ipv6-cpe s-onu tr69 tr69class=iata voice-class=s-onu"}}} - 94
+2025-07-02 21:56:08,717 - get_aggregate_view - INFO - Validation for v1 - 101
+2025-07-02 21:56:08,717 - get_aggregate_view - INFO - Validation for bhn tag of Test_snu001 succeeded at v1  - 113
+2025-07-02 21:56:08,717 - get_aggregate_view - INFO - Validation for twc tag of Test_snu001 succeeded at v1 - 129
+2025-07-02 21:56:08,717 - get_aggregate_view - INFO - ***************************
+For v2 endpoint - 138
+2025-07-02 21:56:09,000 - get_aggregate_view - INFO - Api run Success - 145
+2025-07-02 21:56:09,000 - get_aggregate_view - INFO - V2 Response code: 200 - 146
+2025-07-02 21:56:09,000 - get_aggregate_view - INFO - V2 Response body: {"base":{"twc":{"Humax|Test_snu001|*":"autoprov epta-proxy-firmware-upgrade=EBBU epta-speedtest=iperf3 iperf-header=IPERF iperf-ipv6 ipv6-cm ipv6-cpe s-onu tr69 tr69class=iata voice-class=s-onu","Humax|Test_snu001|Test_snu001-P20-041025-2025.1":"autoprov epta-proxy-firmware-upgrade=EBBU epta-speedtest=iperf3 iperf-header=IPERF iperf-ipv6 ipv6-cm ipv6-cpe s-onu tr69 tr69class=iata voice-class=s-onu"},"bhn":{"Humax|Test_snu001|*":"autoprov epta-proxy-firmware-upgrade=EBBU epta-speedtest=iperf3 iperf-header=IPERF iperf-ipv6 ipv6-cm ipv6-cpe s-onu tr69 tr69class=iata voice-class=s-onu","Humax|Test_snu001|Test_snu001-P20-041025-2025.1":"autoprov epta-proxy-firmware-upgrade=EBBU epta-speedtest=iperf3 iperf-header=IPERF iperf-ipv6 ipv6-cm ipv6-cpe s-onu tr69 tr69class=iata voice-class=s-onu"}},"aggregate":{"twc":{"Humax|Test_snu001|*":"autoprov epta-proxy-firmware-upgrade=EBBU epta-speedtest=iperf3 iperf-header=IPERF iperf-ipv6 ipv6-cm ipv6-cpe s-onu tr69 tr69class=iata voice-class=s-onu","Humax|Test_snu001|Test_snu001-P20-041025-2025.1":"autoprov epta-proxy-firmware-upgrade=EBBU epta-speedtest=iperf3 iperf-header=IPERF iperf-ipv6 ipv6-cm ipv6-cpe s-onu tr69 tr69class=iata voice-class=s-onu"},"bhn":{"Humax|Test_snu001|*":"autoprov epta-proxy-firmware-upgrade=EBBU epta-speedtest=iperf3 iperf-header=IPERF iperf-ipv6 ipv6-cm ipv6-cpe s-onu tr69 tr69class=iata voice-class=s-onu","Humax|Test_snu001|Test_snu001-P20-041025-2025.1":"autoprov epta-proxy-firmware-upgrade=EBBU epta-speedtest=iperf3 iperf-header=IPERF iperf-ipv6 ipv6-cm ipv6-cpe s-onu tr69 tr69class=iata voice-class=s-onu"}}} - 147
+2025-07-02 21:56:09,000 - get_aggregate_view - INFO - Validation for v2 - 154
+2025-07-02 21:56:09,000 - get_aggregate_view - INFO - Validation for bhn tag of Test_snu001 succeeded at v2  - 166
+2025-07-02 21:56:09,000 - get_aggregate_view - INFO - Validation for twc tag of Test_snu001 succeeded at v2 - 182

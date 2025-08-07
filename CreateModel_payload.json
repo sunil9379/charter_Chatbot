@@ -1,0 +1,36 @@
+{
+    "onuModel":{
+  "modelName": "ONUTEST04",
+  "vendorName": "ALCATEL",
+  "modelDesc": {
+    "deviceTypeName": "onu",
+    "deviceType": {
+      "docsisVersion": "3.1"
+    }
+  },
+  "status": "Test",
+  "metadata": {
+    "contextId": "QA01",
+    "referenceId": ref_id,
+    "externalId": ext_id,
+    "userId": "P3205066"
+  }
+},
+    "mtaModel":{
+  "modelName": "TESTMTA04",
+  "vendorName": "Technicolor",
+  "modelDesc": {
+    "deviceTypeName": "mta",
+    "deviceType": {
+      "docsisVersion": "3.1"
+    }
+  },
+  "status": "Test",
+  "metadata": {
+    "contextId": "QA01",
+    "referenceId": ref_id,
+    "externalId": ext_id,
+    "userId": "P3205066"
+  }
+}
+}

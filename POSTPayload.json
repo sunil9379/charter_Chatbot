@@ -1,0 +1,58 @@
+{
+    "onuModel": {
+        "status": "Test",
+        "modelName": "TESTONU001",
+        "vendorName": "ALCATEL",
+        "modelDesc": {
+            "deviceTypeName": "onu",
+            "deviceType": {
+                "docsisVersion": "3.1"
+            }
+        }
+    },
+	    "mtaModel": {
+        "status": "Test",
+        "modelName": "TESTMTA001",
+        "vendorName": "Technicolor",
+        "modelDesc": {
+            "deviceTypeName": "onu",
+            "deviceType": {
+                "docsisVersion": "3.1"
+            }
+        }
+    },
+	    "ataModel": {
+        "status": "Test",
+        "modelName": "TESTATA001",
+        "vendorName": "Ubee",
+        "modelDesc": {
+            "deviceTypeName": "ata",
+            "deviceType": {
+                "docsisVersion": "3.1"
+            }
+        }
+    },
+	    "snuModel": {
+        "status": "Test",
+        "modelName": "TESTSNU001",
+        "vendorName": "Hitron",
+        "modelDesc": {
+            "deviceTypeName": "snu",
+            "deviceType": {
+                "docsisVersion": "3.1"
+            }
+        }
+    },
+	    "cwlModel": {
+        "status": "Test",
+        "modelName": "TESTCWL001",
+        "vendorName": "Motorola",
+        "modelDesc": {
+            "deviceTypeName": "cwl",
+            "deviceType": {
+                "docsisVersion": "3.1"
+            }
+        }
+    }
+	
+}

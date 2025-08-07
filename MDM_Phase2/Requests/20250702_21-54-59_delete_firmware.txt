@@ -1,0 +1,7 @@
+2025-07-02 21:56:10,002 - delete_firmware - INFO - Test to delete the firmware initiated - 36
+2025-07-02 21:56:10,005 - delete_firmware - INFO - deleting the firmware for ata device type with model name: Test_ata001 - 62
+2025-07-02 21:56:10,198 - delete_firmware - INFO - deleting the firmware for mta device type with model name: Test_mta001 - 62
+2025-07-02 21:56:10,403 - delete_firmware - INFO - deleting the firmware for cwl device type with model name: Test_cwl001 - 62
+2025-07-02 21:56:10,592 - delete_firmware - INFO - deleting the firmware for onu device type with model name: Test_onu001 - 62
+2025-07-02 21:56:10,794 - delete_firmware - INFO - deleting the firmware for snu device type with model name: Test_snu001 - 62
+2025-07-02 21:56:10,989 - delete_firmware - INFO - Test completed for deleting the firmware - 99

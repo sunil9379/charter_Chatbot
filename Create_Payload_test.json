@@ -1,0 +1,24 @@
+{
+    "onuModel": {
+        "status": "Test",
+        "modelName": "ABE-040G-B1234AB",
+        "vendorName": "ALCATEL",
+        "modelDesc": {
+            "deviceTypeName": "onu",
+            "deviceType": {
+                "docsisVersion": "3.1"
+            }
+        }
+    },
+	"mtaModel": {
+        "status": "Test",
+        "modelName": "TestMTA123",
+        "vendorName": "Technicolor",
+        "modelDesc": {
+            "deviceTypeName": "mta",
+            "deviceType": {
+                "docsisVersion": "3.1"
+            }
+        }
+    }
+}

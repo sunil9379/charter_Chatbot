@@ -1,0 +1,43 @@
+{
+    "deviceLeaseInfo": {
+        "cmMac": "a4:cf:d2:f6:22:f8",
+        "deviceType": "cm",
+        "classOfService": "",
+        "serialNumber": "M2C8A43008240",
+        "macId": "a4:cf:d2:f6:22:f8",
+        "ipAddress": "10.1.6.133",
+        "legacyFootprint": "L-CHTR",
+        "dhcpCriteria": "",
+        "eDeviceType": "ECM",
+        "gatewayIp": "10.1.0.5",
+        "currentFirmwareVersion": "EU2251-UNI-05.02.01-C3R",
+        "deviceId": "ff:d2:f6:22:f8:00:03:00:01:a4:cf:d2:f6:22:f8",
+        "embeddedComponents": [
+            "ECM:EDVA"
+        ],
+        "regionId": "dhc01-int.ise.charterlab.com",
+        "vendor": "Ubee",
+        "bootromVersion": "2.7.0alpha4",
+        "provisioningGroup": "devint",
+        "action": "UPSERT",
+        "hardwareVersion": "2.76.2",
+        "model": "EU2251",
+        "networkProtocol": "IPv4",
+        "requiredFirmwareVersion": "EU2251-UNI-05.02.01-C3R",
+        "vendorOui": "36:34:37:43:33:34",
+        "timestamp": 1753087966
+    },
+    "bootInfo": {
+        "receivedTimestamp": 1753087966,
+        "eventSource": "dpe01-int-r810.ise.charterlab.com",
+        "mac": "a4:cf:d2:f6:22:f8"
+    },
+    "deviceCapabilities": {
+        "certifiedSpeed": {
+            "smbUpload": 1100000000,
+            "resiUpload": 1100000000,
+            "smbDownload": 2000000000,
+            "resiDownload": 2000000000
+        }
+    }
+}

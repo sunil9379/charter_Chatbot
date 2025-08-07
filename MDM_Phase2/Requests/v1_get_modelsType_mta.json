@@ -1,0 +1,96 @@
+{
+    "Motorola": [
+        "SBV5220",
+        "SBV5120",
+        "SBV6220",
+        "SBV5121E",
+        "SBV5122",
+        "SBV5322",
+        "SBV5222",
+        "SBV5121",
+        "Test_mta01",
+        "TESTMTA041"
+    ],
+    "Arris": [
+        "TM512A",
+        "TM602A",
+        "TM402G",
+        "TM402P",
+        "TM804G",
+        "TM502G",
+        "TM502A",
+        "TM1602G",
+        "TM508A",
+        "TM1602AP2",
+        "TM1602A",
+        "TM602G",
+        "TM722G",
+        "TM604G",
+        "TM608G",
+        "SBV2402",
+        "TM802G",
+        "TM632A",
+        "SBV3202",
+        "TM822A",
+        "TM3202G",
+        "TM504G",
+        "TM3202A",
+        "TM902A",
+        "TM702G",
+        "TM822G",
+        "T25"
+    ],
+    "S-A": [
+        "DPC2203",
+        "DPX2203C",
+        "DPX2203",
+        "ACD!"
+    ],
+    "Technicolor": [
+        "ET2251",
+        "E31T2V1"
+    ],
+    "Ubee": [
+        "U10C017",
+        "U10C034",
+        "E31U2V1",
+        "EU2251",
+        "U10C040",
+        "DVW320KB SIP",
+        "EU4251"
+    ],
+    "Sercomm": [
+        "ES4251",
+        "ES2251"
+    ],
+    "Cisco": [
+        "DPC3208",
+        "DPC3216",
+        "DPC3941T",
+        "DPQ3925",
+        "DPC3216C",
+        "DPC3208C"
+    ],
+    "WideView Tech": [
+        "TestModel_toosexyformyshirt"
+    ],
+    "Hitron": [
+        "E31N2V1",
+        "EN2251",
+        "DMM-5500"
+    ],
+    "Arcadyan": [
+        "EA2251SCS"
+    ],
+    "Thomson": [
+        "DHG575",
+        "DHG535",
+        "DHG536"
+    ],
+    "NETGEAR Inc.": [
+        "CM2050V"
+    ],
+    "TECHNICOLOR": [
+        "TESTMTA01"
+    ]
+}

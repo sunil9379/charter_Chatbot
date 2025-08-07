@@ -1,0 +1,43 @@
+{
+    "bootInfo": {
+        "eventSource": "dpe01-int-r810.ise.charterlab.com",
+        "mac": "a4:cf:d2:f6:22:f8",
+        "receivedTimestamp": 1753087966
+    },
+    "deviceCapabilities": {
+        "certifiedSpeed": {
+            "resiDownload": 2000000000,
+            "resiUpload": 1100000000,
+            "smbDownload": 2000000000,
+            "smbUpload": 1100000000
+        }
+    },
+    "deviceLeaseInfo": {
+        "action": "UPSERT",
+        "bootromVersion": "2.7.0alpha4",
+        "classOfService": "",
+        "cmMac": "a4:cf:d2:f6:22:f8",
+        "currentFirmwareVersion": "EU2251-UNI-05.02.01-C3R",
+        "deviceId": "ff:d2:f6:22:f8:00:03:00:01:a4:cf:d2:f6:22:f8",
+        "deviceType": "cm",
+        "dhcpCriteria": "",
+        "eDeviceType": "ECM",
+        "embeddedComponents": [
+            "ECM:EDVA"
+        ],
+        "gatewayIp": "10.1.0.5",
+        "hardwareVersion": "2.76.2",
+        "ipAddress": "10.1.6.133",
+        "legacyFootprint": "L-CHTR",
+        "macId": "a4:cf:d2:f6:22:f8",
+        "model": "EU2251",
+        "networkProtocol": "IPv4",
+        "provisioningGroup": "devint",
+        "regionId": "dhc01-int.ise.charterlab.com",
+        "requiredFirmwareVersion": "EU2251-UNI-05.02.01-C3R",
+        "serialNumber": "M2C8A43008240",
+        "timestamp": 1753087966,
+        "vendor": "Ubee",
+        "vendorOui": "36:34:37:43:33:34"
+    }
+}

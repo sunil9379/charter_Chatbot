@@ -1,0 +1,21 @@
+2025-07-10 14:22:13,393 - INFO - Test initiated get all matched models - 27
+2025-07-10 14:22:13,594 - INFO - Success response - 51
+2025-07-10 14:22:13,594 - INFO - Success code: 200
+Response Body: [{"status":"Test","modelName":"Test_ata168","vendorName":"Ubee","modelDesc":{"deviceTypeName":"ata"}},{"status":"Test","modelName":"Test_ata582","vendorName":"Ubee","modelDesc":{"deviceTypeName":"ata"}},{"status":"Test","modelName":"Test_ata001","vendorName":"Ubee","modelDesc":{"deviceTypeName":"ata"}}] - 52
+2025-07-10 14:22:13,594 - INFO - Test_ata001 found in response. Validation success - 56
+2025-07-10 14:22:13,790 - INFO - Success response - 51
+2025-07-10 14:22:13,790 - INFO - Success code: 200
+Response Body: [{"status":"Test","modelName":"Test_mta474","vendorName":"Technicolor","modelDesc":{"deviceTypeName":"mta","deviceType":{"docsisVersion":"1.1"}}},{"status":"Test","modelName":"Test_mta100","vendorName":"Technicolor","modelDesc":{"deviceTypeName":"mta","deviceType":{"docsisVersion":"1.1"}}},{"status":"Test","modelName":"Test_mta001","vendorName":"Technicolor","modelDesc":{"deviceTypeName":"mta","deviceType":{"docsisVersion":"1.1"}}}] - 52
+2025-07-10 14:22:13,790 - INFO - Test_mta001 found in response. Validation success - 56
+2025-07-10 14:22:13,991 - INFO - Success response - 51
+2025-07-10 14:22:13,992 - INFO - Success code: 200
+Response Body: [{"status":"Test","modelName":"Test_cwl221","vendorName":"Motorola","modelDesc":{"deviceTypeName":"cwl","deviceType":{"docsisVersion":"1.1"}}},{"status":"Test","modelName":"Test_cwl001","vendorName":"Motorola","modelDesc":{"deviceTypeName":"cwl","deviceType":{"docsisVersion":"1.1"}}}] - 52
+2025-07-10 14:22:13,992 - INFO - Test_cwl001 found in response. Validation success - 56
+2025-07-10 14:22:14,184 - INFO - Success response - 51
+2025-07-10 14:22:14,184 - INFO - Success code: 200
+Response Body: [{"status":"Test","modelName":"Test_onu867","vendorName":"ALCATEL","modelDesc":{"deviceTypeName":"onu","deviceType":{"docsisVersion":"1.1"}}},{"status":"Test","modelName":"Test_onu001","vendorName":"ALCATEL","modelDesc":{"deviceTypeName":"onu","deviceType":{"docsisVersion":"1.1"}}}] - 52
+2025-07-10 14:22:14,184 - INFO - Test_onu001 found in response. Validation success - 56
+2025-07-10 14:22:14,391 - INFO - Success response - 51
+2025-07-10 14:22:14,391 - INFO - Success code: 200
+Response Body: [{"status":"Test","modelName":"Test_snu898","vendorName":"Humax","modelDesc":{"deviceTypeName":"snu","deviceType":{"docsisVersion":"1.1"}}},{"status":"Test","modelName":"Test_snu001","vendorName":"Humax","modelDesc":{"deviceTypeName":"snu","deviceType":{"docsisVersion":"1.1"}}}] - 52
+2025-07-10 14:22:14,391 - INFO - Test_snu001 found in response. Validation success - 56

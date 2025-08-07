@@ -1,0 +1,72 @@
+2025-06-16 16:40:08,486 - INFO - Starting the test case execution to create the model TESTONU00012
+2025-06-16 16:40:08,487 - INFO - Starting the POST method
+2025-06-16 16:40:30,669 - INFO - executed the Post method to create the model
+2025-06-16 16:40:30,669 - INFO - response code:201
+2025-06-16 16:40:30,669 - INFO - Test case passed
+2025-06-16 16:40:30,669 - INFO - response message: {'detail': 'created document with id 684ffba7f8fece0ba5e1f7af'}
+2025-06-16 16:40:30,670 - INFO - Completed the test case execution to create the model TESTONU00012
+2025-06-16 16:40:30,670 - INFO - -----------------------------------------------------------
+2025-06-16 16:40:31,671 - INFO - Starting the test case execution for Get model TESTONU00012
+2025-06-16 16:40:53,609 - INFO - Success!
+2025-06-16 16:40:53,609 - INFO - response code: 200
+2025-06-16 16:40:53,609 - INFO - response messge:{'status': 'Test', 'modelName': 'TESTONU00012', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-06-16 16:40:53,610 - INFO - all the attributes are matching
+2025-06-16 16:40:53,610 - INFO - Completed the test case execution for get the model TESTONU00012
+2025-06-16 16:40:53,611 - INFO - -----------------------------------------------------------
+2025-06-16 16:40:54,611 - INFO - Starting the test case execution for Delete model TESTONU00012
+2025-06-16 16:40:54,611 - INFO - Starting to delete the model
+2025-06-16 16:41:15,967 - INFO - Test case passed
+2025-06-16 16:41:15,967 - INFO - response code:204
+2025-06-16 16:41:15,967 - INFO - successfully deleted the model
+2025-06-16 16:41:15,968 - INFO - Completed the test case execution for Delete  model TESTONU00012
+2025-06-16 16:41:15,968 - INFO - -----------------------------------------------------------
+2025-06-16 16:41:16,969 - INFO - Starting the test case execution for Get model after delete TESTONU00012
+2025-06-16 16:41:38,310 - ERROR - Failed with Status code: 404
+2025-06-16 16:41:38,311 - ERROR - {'exc_message': 'model TESTONU00012 does not exist', 'exc_type': 'DataMissingException', 'exc_code': 72001, 'traceback': ['Traceback (most recent call last):\n', '  File "/usr/local/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app\n    await app(scope, receive, sender)\n', '  File "/usr/local/lib/python3.11/site-packages/starlette/routing.py", line 73, in app\n    response = await f(request)\n               ^^^^^^^^^^^^^^^^\n', '  File "/app/src/lib/fastapi_logging_route_class/request_response_logger.py", line 158, in custom_route_handler\n    response = await original_route_handler(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 301, in app\n    raw_response = await run_endpoint_function(\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 212, in run_endpoint_function\n    return await dependant.call(**values)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/app/src/api/v2/routers/catalog.py", line 790, in get_model\n    raise DataMissingException(f"model {model} does not exist")\n', 'src.models.exceptions.base_exception.DataMissingException: model TESTONU00012 does not exist\n']}
+2025-06-16 16:41:38,311 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/TESTONU00012?referenceId=TestModel8
+2025-06-16 16:41:38,312 - INFO - Test case passed
+2025-06-16 16:41:38,312 - INFO - Completed the test case execution for get the model after delete TESTONU00012
+2025-06-16 16:41:38,312 - INFO - -----------------------------------------------------------
+2025-06-16 16:41:39,312 - INFO - Starting the test case execution for Delete model after delete TESTONU00012
+2025-06-16 16:41:39,312 - INFO - Starting to delete the model
+2025-06-16 16:42:00,785 - INFO - response code:404
+2025-06-16 16:42:00,785 - INFO - {"exc_message":"model TESTONU00012 does not exist","exc_type":"DataMissingException","exc_code":72001,"traceback":["Traceback (most recent call last):\n","  File \"/usr/local/lib/python3.11/site-packages/starlette/_exception_handler.py\", line 42, in wrapped_app\n    await app(scope, receive, sender)\n","  File \"/usr/local/lib/python3.11/site-packages/starlette/routing.py\", line 73, in app\n    response = await f(request)\n               ^^^^^^^^^^^^^^^^\n","  File \"/app/src/lib/fastapi_logging_route_class/request_response_logger.py\", line 158, in custom_route_handler\n    response = await original_route_handler(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n","  File \"/usr/local/lib/python3.11/site-packages/fastapi/routing.py\", line 301, in app\n    raw_response = await run_endpoint_function(\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n","  File \"/usr/local/lib/python3.11/site-packages/fastapi/routing.py\", line 212, in run_endpoint_function\n    return await dependant.call(**values)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n","  File \"/app/src/api/v2/routers/catalog.py\", line 265, in wrapper\n    return await f(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n","  File \"/app/src/api/v2/routers/catalog.py\", line 557, in delete_model\n    raise DataMissingException(f\"model {model} does not exist\")\n","src.models.exceptions.base_exception.DataMissingException: model TESTONU00012 does not exist\n"]}
+2025-06-16 16:42:00,786 - INFO - Test case passed
+2025-06-16 16:42:00,786 - INFO - Completed the test case execution for Delete  model after delete TESTONU00012
+2025-06-16 16:42:00,786 - INFO - -----------------------------------------------------------
+2025-06-16 16:42:01,787 - INFO - Starting the test case execution to create the model TESTMTA00012
+2025-06-16 16:42:01,787 - INFO - Starting the POST method
+2025-06-16 16:42:23,369 - INFO - executed the Post method to create the model
+2025-06-16 16:42:23,369 - INFO - response code:201
+2025-06-16 16:42:23,369 - INFO - Test case passed
+2025-06-16 16:42:23,369 - INFO - response message: {'detail': 'created document with id 684ffc179d71570df7cbcdf8'}
+2025-06-16 16:42:23,370 - INFO - Completed the test case execution to create the model TESTMTA00012
+2025-06-16 16:42:23,370 - INFO - -----------------------------------------------------------
+2025-06-16 16:42:24,370 - INFO - Starting the test case execution for Get model TESTMTA00012
+2025-06-16 16:42:45,839 - INFO - Success!
+2025-06-16 16:42:45,839 - INFO - response code: 200
+2025-06-16 16:42:45,839 - INFO - response messge:{'status': 'Test', 'modelName': 'TESTMTA00012', 'vendorName': 'Technicolor', 'modelDesc': {'deviceTypeName': 'mta', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-06-16 16:42:45,840 - INFO - all the attributes are matching
+2025-06-16 16:42:45,841 - INFO - Completed the test case execution for get the model TESTMTA00012
+2025-06-16 16:42:45,841 - INFO - -----------------------------------------------------------
+2025-06-16 16:42:46,841 - INFO - Starting the test case execution for Delete model TESTMTA00012
+2025-06-16 16:42:46,842 - INFO - Starting to delete the model
+2025-06-16 16:43:08,373 - INFO - Test case passed
+2025-06-16 16:43:08,373 - INFO - response code:204
+2025-06-16 16:43:08,373 - INFO - successfully deleted the model
+2025-06-16 16:43:08,374 - INFO - Completed the test case execution for Delete  model TESTMTA00012
+2025-06-16 16:43:08,374 - INFO - -----------------------------------------------------------
+2025-06-16 16:43:09,374 - INFO - Starting the test case execution for Get model after delete TESTMTA00012
+2025-06-16 16:43:30,671 - ERROR - Failed with Status code: 404
+2025-06-16 16:43:30,672 - ERROR - {'exc_message': 'model TESTMTA00012 does not exist', 'exc_type': 'DataMissingException', 'exc_code': 72001, 'traceback': ['Traceback (most recent call last):\n', '  File "/usr/local/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app\n    await app(scope, receive, sender)\n', '  File "/usr/local/lib/python3.11/site-packages/starlette/routing.py", line 73, in app\n    response = await f(request)\n               ^^^^^^^^^^^^^^^^\n', '  File "/app/src/lib/fastapi_logging_route_class/request_response_logger.py", line 158, in custom_route_handler\n    response = await original_route_handler(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 301, in app\n    raw_response = await run_endpoint_function(\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 212, in run_endpoint_function\n    return await dependant.call(**values)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/app/src/api/v2/routers/catalog.py", line 790, in get_model\n    raise DataMissingException(f"model {model} does not exist")\n', 'src.models.exceptions.base_exception.DataMissingException: model TESTMTA00012 does not exist\n']}
+2025-06-16 16:43:30,672 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/TESTMTA00012?referenceId=TestModel8
+2025-06-16 16:43:30,673 - INFO - Test case passed
+2025-06-16 16:43:30,673 - INFO - Completed the test case execution for get the model after delete TESTMTA00012
+2025-06-16 16:43:30,673 - INFO - -----------------------------------------------------------
+2025-06-16 16:43:31,693 - INFO - Starting the test case execution for Delete model after delete TESTMTA00012
+2025-06-16 16:43:31,694 - INFO - Starting to delete the model
+2025-06-16 16:43:53,340 - INFO - response code:404
+2025-06-16 16:43:53,340 - INFO - {"exc_message":"model TESTMTA00012 does not exist","exc_type":"DataMissingException","exc_code":72001,"traceback":["Traceback (most recent call last):\n","  File \"/usr/local/lib/python3.11/site-packages/starlette/_exception_handler.py\", line 42, in wrapped_app\n    await app(scope, receive, sender)\n","  File \"/usr/local/lib/python3.11/site-packages/starlette/routing.py\", line 73, in app\n    response = await f(request)\n               ^^^^^^^^^^^^^^^^\n","  File \"/app/src/lib/fastapi_logging_route_class/request_response_logger.py\", line 158, in custom_route_handler\n    response = await original_route_handler(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n","  File \"/usr/local/lib/python3.11/site-packages/fastapi/routing.py\", line 301, in app\n    raw_response = await run_endpoint_function(\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n","  File \"/usr/local/lib/python3.11/site-packages/fastapi/routing.py\", line 212, in run_endpoint_function\n    return await dependant.call(**values)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n","  File \"/app/src/api/v2/routers/catalog.py\", line 265, in wrapper\n    return await f(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n","  File \"/app/src/api/v2/routers/catalog.py\", line 557, in delete_model\n    raise DataMissingException(f\"model {model} does not exist\")\n","src.models.exceptions.base_exception.DataMissingException: model TESTMTA00012 does not exist\n"]}
+2025-06-16 16:43:53,341 - INFO - Test case passed
+2025-06-16 16:43:53,341 - INFO - Completed the test case execution for Delete  model after delete TESTMTA00012
+2025-06-16 16:43:53,341 - INFO - -----------------------------------------------------------

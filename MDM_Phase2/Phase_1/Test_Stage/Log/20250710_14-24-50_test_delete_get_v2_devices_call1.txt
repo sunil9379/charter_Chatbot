@@ -1,0 +1,26 @@
+2025-07-10 14:24:50,502 - INFO - Test initiated to get v2 devices - 22
+2025-07-10 14:24:50,504 - INFO - Getting response for device Test_ata001 - 42
+2025-07-10 14:24:50,710 - INFO - Getting success response for device Test_ata001 - 58
+2025-07-10 14:24:50,710 - INFO - Success code: 200
+Response Body: {"status":"Test","modelName":"Test_ata001","vendorName":"Ubee","modelDesc":{"deviceTypeName":"ata"}} - 59
+2025-07-10 14:24:50,710 - INFO - Device Test_ata001 present in response body - 63
+2025-07-10 14:24:50,710 - INFO - Getting response for device Test_mta001 - 42
+2025-07-10 14:24:50,904 - INFO - Getting success response for device Test_mta001 - 58
+2025-07-10 14:24:50,904 - INFO - Success code: 200
+Response Body: {"status":"Test","modelName":"Test_mta001","vendorName":"Technicolor","modelDesc":{"deviceTypeName":"mta","deviceType":{"docsisVersion":"1.1"}}} - 59
+2025-07-10 14:24:50,905 - INFO - Device Test_mta001 present in response body - 63
+2025-07-10 14:24:50,905 - INFO - Getting response for device Test_cwl001 - 42
+2025-07-10 14:24:51,106 - INFO - Getting success response for device Test_cwl001 - 58
+2025-07-10 14:24:51,107 - INFO - Success code: 200
+Response Body: {"status":"Test","modelName":"Test_cwl001","vendorName":"Motorola","modelDesc":{"deviceTypeName":"cwl","deviceType":{"docsisVersion":"1.1"}}} - 59
+2025-07-10 14:24:51,107 - INFO - Device Test_cwl001 present in response body - 63
+2025-07-10 14:24:51,107 - INFO - Getting response for device Test_onu001 - 42
+2025-07-10 14:24:51,298 - INFO - Getting success response for device Test_onu001 - 58
+2025-07-10 14:24:51,298 - INFO - Success code: 200
+Response Body: {"status":"Test","modelName":"Test_onu001","vendorName":"ALCATEL","modelDesc":{"deviceTypeName":"onu","deviceType":{"docsisVersion":"1.1"}}} - 59
+2025-07-10 14:24:51,298 - INFO - Device Test_onu001 present in response body - 63
+2025-07-10 14:24:51,298 - INFO - Getting response for device Test_snu001 - 42
+2025-07-10 14:24:51,507 - INFO - Getting success response for device Test_snu001 - 58
+2025-07-10 14:24:51,507 - INFO - Success code: 200
+Response Body: {"status":"Test","modelName":"Test_snu001","vendorName":"Humax","modelDesc":{"deviceTypeName":"snu","deviceType":{"docsisVersion":"1.1"}}} - 59
+2025-07-10 14:24:51,507 - INFO - Device Test_snu001 present in response body - 63

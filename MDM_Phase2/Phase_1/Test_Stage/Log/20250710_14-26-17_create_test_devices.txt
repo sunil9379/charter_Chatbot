@@ -1,0 +1,12 @@
+2025-07-10 14:26:17,267 - INFO - -------------------------------**---------------------------- - 26
+2025-07-10 14:26:17,268 - INFO - Test initiated to create device in test stage - 28
+2025-07-10 14:26:17,270 - INFO - Imported the payload and config file - 42
+2025-07-10 14:26:17,579 - INFO - ====================================================== - 70
+2025-07-10 14:26:17,580 - INFO - Device created for ata in test stage successfully
+Response Body: {"detail":"created document with id 686f8031d8ea99e2d8e2f13f"} - 74
+2025-07-10 14:26:17,862 - INFO - ====================================================== - 70
+2025-07-10 14:26:17,863 - INFO - Device created for mta in test stage successfully
+Response Body: {"detail":"created document with id 686f8031d8ea99e2d8e2f140"} - 74
+2025-07-10 14:26:18,137 - INFO - ====================================================== - 70
+2025-07-10 14:26:18,137 - INFO - Device created for cwl in test stage successfully
+Response Body: {"detail":"created document with id 686f8032b800134d35b92328"} - 74

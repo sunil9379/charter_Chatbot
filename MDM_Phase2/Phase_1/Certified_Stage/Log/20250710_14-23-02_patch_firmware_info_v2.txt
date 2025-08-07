@@ -1,0 +1,11 @@
+2025-07-10 14:23:02,641 - INFO - Test initiated for get firmware info v2 - 178
+2025-07-10 14:23:02,834 - INFO - Getting v2 firmware info for device Test_ata001,firmware Test_ata001-P20-040625-2025.6 - 189
+2025-07-10 14:23:02,835 - INFO - Validation Success for device Test_ata001 at get firmware info v2 - 195
+2025-07-10 14:23:03,157 - INFO - Getting v2 firmware info for device Test_mta001,firmware Test_mta001-P20-040625-2025.6 - 189
+2025-07-10 14:23:03,158 - INFO - Validation Success for device Test_mta001 at get firmware info v2 - 195
+2025-07-10 14:23:03,358 - INFO - Getting v2 firmware info for device Test_cwl001,firmware Test_cwl001-P20-040625-2025.6 - 189
+2025-07-10 14:23:03,358 - INFO - Validation Success for device Test_cwl001 at get firmware info v2 - 195
+2025-07-10 14:23:03,564 - INFO - Getting v2 firmware info for device Test_onu001,firmware Test_onu001-P20-040625-2025.6 - 189
+2025-07-10 14:23:03,564 - INFO - Validation Success for device Test_onu001 at get firmware info v2 - 195
+2025-07-10 14:23:03,764 - INFO - Getting v2 firmware info for device Test_snu001,firmware Test_snu001-P20-040625-2025.6 - 189
+2025-07-10 14:23:03,764 - INFO - Validation Success for device Test_snu001 at get firmware info v2 - 195

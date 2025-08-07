@@ -1,0 +1,63 @@
+2025-07-10 14:22:26,882 - INFO - Test initiated for creating firmware - 27
+2025-07-10 14:22:26,884 - INFO - Payload: {'firmwareVersion': 'Test_ata001-P20-040625-2025.5', 'firmwareFilename': 'Test_ata001-P20-040625-2025.5.charter', 'firmwareTransferProtocol': 'HTTPS', 'firmwareTags': {'bhn': {}, 'twc': {}, 'global': {}}, 'upgrade': True, 'metadata': {'contextId': 'QA01', 'referenceId': 'Test_ata0019316', 'externalId': 'Test_ata0016197', 'userId': 'P3289462'}} - 59
+2025-07-10 14:22:30,118 - INFO - Firmware for Test_ata001 created successfully - 66
+2025-07-10 14:22:30,118 - INFO - Success Code: 201 - 67
+2025-07-10 14:22:30,118 - INFO - Response Message: "updated firmware in document with id '686f7f3ab9221b38e60e2649'" - 68
+2025-07-10 14:22:30,120 - INFO - Payload: {'firmwareVersion': 'Test_mta001-P20-040625-2025.5', 'firmwareFilename': 'Test_mta001-P20-040625-2025.5.charter', 'firmwareTransferProtocol': 'HTTPS', 'firmwareTags': {'bhn': {}, 'twc': {}, 'global': {}}, 'upgrade': True, 'metadata': {'contextId': 'QA01', 'referenceId': 'Test_mta0016313', 'externalId': 'Test_mta0019616', 'userId': 'P3289462'}} - 59
+2025-07-10 14:22:33,362 - INFO - Firmware for Test_mta001 created successfully - 66
+2025-07-10 14:22:33,362 - INFO - Success Code: 201 - 67
+2025-07-10 14:22:33,362 - INFO - Response Message: "updated firmware in document with id '686f7f3a52dd5c42470e2648'" - 68
+2025-07-10 14:22:33,364 - INFO - Payload: {'firmwareVersion': 'Test_cwl001-P20-040625-2025.5', 'firmwareFilename': 'Test_cwl001-P20-040625-2025.5.charter', 'firmwareTransferProtocol': 'HTTPS', 'firmwareTags': {'bhn': {}, 'twc': {}, 'global': {}}, 'upgrade': True, 'metadata': {'contextId': 'QA01', 'referenceId': 'Test_cwl0011690', 'externalId': 'Test_cwl0016987', 'userId': 'P3289462'}} - 59
+2025-07-10 14:22:36,595 - INFO - Firmware for Test_cwl001 created successfully - 66
+2025-07-10 14:22:36,596 - INFO - Success Code: 201 - 67
+2025-07-10 14:22:36,596 - INFO - Response Message: "updated firmware in document with id '686f7f3a918ff0938be2f139'" - 68
+2025-07-10 14:22:36,597 - INFO - Payload: {'firmwareVersion': 'Test_onu001-P20-040625-2025.5', 'firmwareFilename': 'Test_onu001-P20-040625-2025.5.charter', 'firmwareTransferProtocol': 'HTTPS', 'firmwareTags': {'bhn': {}, 'twc': {}, 'global': {}}, 'upgrade': True, 'metadata': {'contextId': 'QA01', 'referenceId': 'Test_onu0015557', 'externalId': 'Test_onu0016136', 'userId': 'P3289462'}} - 59
+2025-07-10 14:22:39,825 - INFO - Firmware for Test_onu001 created successfully - 66
+2025-07-10 14:22:39,826 - INFO - Success Code: 201 - 67
+2025-07-10 14:22:39,826 - INFO - Response Message: "updated firmware in document with id '686f7f3bfe9d40e679a45920'" - 68
+2025-07-10 14:22:39,828 - INFO - Payload: {'firmwareVersion': 'Test_snu001-P20-040625-2025.5', 'firmwareFilename': 'Test_snu001-P20-040625-2025.5.charter', 'firmwareTransferProtocol': 'HTTPS', 'firmwareTags': {'bhn': {}, 'twc': {}, 'global': {}}, 'upgrade': True, 'metadata': {'contextId': 'QA01', 'referenceId': 'Test_snu0019436', 'externalId': 'Test_snu0017787', 'userId': 'P3289462'}} - 59
+2025-07-10 14:22:43,083 - INFO - Firmware for Test_snu001 created successfully - 66
+2025-07-10 14:22:43,083 - INFO - Success Code: 201 - 67
+2025-07-10 14:22:43,083 - INFO - Response Message: "updated firmware in document with id '686f7f3b21b0af25e3ae85d6'" - 68
+2025-07-10 14:23:48,549 - INFO - Test initiated for creating firmware - 29
+2025-07-10 14:23:48,551 - INFO - Payload: {'firmwareVersion': 'Test_ata001-P15-040625-2025.5', 'firmwareFilename': 'Test_ata001-P15-040625-2025.5.charter', 'firmwareTransferProtocol': 'HTTPS', 'firmwareTags': {'bhn': {}, 'twc': {}, 'global': {}}, 'upgrade': True, 'metadata': {'contextId': 'QA01', 'referenceId': 'Test_ata0014740', 'externalId': 'Test_ata0018492', 'userId': 'P3289462'}} - 61
+2025-07-10 14:23:51,790 - INFO - Firmware for Test_ata001 created successfully - 68
+2025-07-10 14:23:51,790 - INFO - Success Code: 201 - 69
+2025-07-10 14:23:51,790 - INFO - Response Message: "updated firmware in document with id '686f7f3ab9221b38e60e2649'" - 70
+2025-07-10 14:23:51,792 - INFO - Payload: {'firmwareVersion': 'Test_mta001-P15-040625-2025.5', 'firmwareFilename': 'Test_mta001-P15-040625-2025.5.charter', 'firmwareTransferProtocol': 'HTTPS', 'firmwareTags': {'bhn': {}, 'twc': {}, 'global': {}}, 'upgrade': True, 'metadata': {'contextId': 'QA01', 'referenceId': 'Test_mta0019722', 'externalId': 'Test_mta0013849', 'userId': 'P3289462'}} - 61
+2025-07-10 14:23:55,023 - INFO - Firmware for Test_mta001 created successfully - 68
+2025-07-10 14:23:55,023 - INFO - Success Code: 201 - 69
+2025-07-10 14:23:55,023 - INFO - Response Message: "updated firmware in document with id '686f7f3a52dd5c42470e2648'" - 70
+2025-07-10 14:23:55,025 - INFO - Payload: {'firmwareVersion': 'Test_cwl001-P15-040625-2025.5', 'firmwareFilename': 'Test_cwl001-P15-040625-2025.5.charter', 'firmwareTransferProtocol': 'HTTPS', 'firmwareTags': {'bhn': {}, 'twc': {}, 'global': {}}, 'upgrade': True, 'metadata': {'contextId': 'QA01', 'referenceId': 'Test_cwl0014473', 'externalId': 'Test_cwl0012574', 'userId': 'P3289462'}} - 61
+2025-07-10 14:23:58,272 - INFO - Firmware for Test_cwl001 created successfully - 68
+2025-07-10 14:23:58,272 - INFO - Success Code: 201 - 69
+2025-07-10 14:23:58,272 - INFO - Response Message: "updated firmware in document with id '686f7f3a918ff0938be2f139'" - 70
+2025-07-10 14:23:58,274 - INFO - Payload: {'firmwareVersion': 'Test_onu001-P15-040625-2025.5', 'firmwareFilename': 'Test_onu001-P15-040625-2025.5.charter', 'firmwareTransferProtocol': 'HTTPS', 'firmwareTags': {'bhn': {}, 'twc': {}, 'global': {}}, 'upgrade': True, 'metadata': {'contextId': 'QA01', 'referenceId': 'Test_onu0016163', 'externalId': 'Test_onu0014523', 'userId': 'P3289462'}} - 61
+2025-07-10 14:24:01,523 - INFO - Firmware for Test_onu001 created successfully - 68
+2025-07-10 14:24:01,523 - INFO - Success Code: 201 - 69
+2025-07-10 14:24:01,523 - INFO - Response Message: "updated firmware in document with id '686f7f3bfe9d40e679a45920'" - 70
+2025-07-10 14:24:01,525 - INFO - Payload: {'firmwareVersion': 'Test_snu001-P15-040625-2025.5', 'firmwareFilename': 'Test_snu001-P15-040625-2025.5.charter', 'firmwareTransferProtocol': 'HTTPS', 'firmwareTags': {'bhn': {}, 'twc': {}, 'global': {}}, 'upgrade': True, 'metadata': {'contextId': 'QA01', 'referenceId': 'Test_snu0012355', 'externalId': 'Test_snu0014172', 'userId': 'P3289462'}} - 61
+2025-07-10 14:24:04,764 - INFO - Firmware for Test_snu001 created successfully - 68
+2025-07-10 14:24:04,764 - INFO - Success Code: 201 - 69
+2025-07-10 14:24:04,764 - INFO - Response Message: "updated firmware in document with id '686f7f3b21b0af25e3ae85d6'" - 70
+2025-07-10 14:25:06,650 - INFO - Test initiated for creating firmware - 27
+2025-07-10 14:25:06,652 - INFO - Payload: {'firmwareVersion': 'Test_ata001-P20-040625-2025.5', 'firmwareFilename': 'Test_ata001-P20-040625-2025.5.charter', 'firmwareTransferProtocol': 'HTTPS', 'firmwareTags': {'bhn': {}, 'twc': {}, 'global': {}}, 'upgrade': True, 'metadata': {'contextId': 'QA01', 'referenceId': 'Test_ata0019306', 'externalId': 'Test_ata0018584', 'userId': 'P3289462'}} - 59
+2025-07-10 14:25:09,890 - INFO - Firmware for Test_ata001 created successfully - 66
+2025-07-10 14:25:09,890 - INFO - Success Code: 201 - 67
+2025-07-10 14:25:09,890 - INFO - Response Message: "updated firmware in document with id '686f7fe451a712964dae85d0'" - 68
+2025-07-10 14:25:09,892 - INFO - Payload: {'firmwareVersion': 'Test_mta001-P20-040625-2025.5', 'firmwareFilename': 'Test_mta001-P20-040625-2025.5.charter', 'firmwareTransferProtocol': 'HTTPS', 'firmwareTags': {'bhn': {}, 'twc': {}, 'global': {}}, 'upgrade': True, 'metadata': {'contextId': 'QA01', 'referenceId': 'Test_mta0013978', 'externalId': 'Test_mta0012171', 'userId': 'P3289462'}} - 59
+2025-07-10 14:25:13,130 - INFO - Firmware for Test_mta001 created successfully - 66
+2025-07-10 14:25:13,130 - INFO - Success Code: 201 - 67
+2025-07-10 14:25:13,130 - INFO - Response Message: "updated firmware in document with id '686f7fe4ff850ba1d2e2f13a'" - 68
+2025-07-10 14:25:13,132 - INFO - Payload: {'firmwareVersion': 'Test_cwl001-P20-040625-2025.5', 'firmwareFilename': 'Test_cwl001-P20-040625-2025.5.charter', 'firmwareTransferProtocol': 'HTTPS', 'firmwareTags': {'bhn': {}, 'twc': {}, 'global': {}}, 'upgrade': True, 'metadata': {'contextId': 'QA01', 'referenceId': 'Test_cwl0019909', 'externalId': 'Test_cwl0011639', 'userId': 'P3289462'}} - 59
+2025-07-10 14:25:16,367 - INFO - Firmware for Test_cwl001 created successfully - 66
+2025-07-10 14:25:16,367 - INFO - Success Code: 201 - 67
+2025-07-10 14:25:16,367 - INFO - Response Message: "updated firmware in document with id '686f7fe4918ff0938be2f13a'" - 68
+2025-07-10 14:25:16,369 - INFO - Payload: {'firmwareVersion': 'Test_onu001-P20-040625-2025.5', 'firmwareFilename': 'Test_onu001-P20-040625-2025.5.charter', 'firmwareTransferProtocol': 'HTTPS', 'firmwareTags': {'bhn': {}, 'twc': {}, 'global': {}}, 'upgrade': True, 'metadata': {'contextId': 'QA01', 'referenceId': 'Test_onu0013964', 'externalId': 'Test_onu0014114', 'userId': 'P3289462'}} - 59
+2025-07-10 14:25:19,608 - INFO - Firmware for Test_onu001 created successfully - 66
+2025-07-10 14:25:19,608 - INFO - Success Code: 201 - 67
+2025-07-10 14:25:19,608 - INFO - Response Message: "updated firmware in document with id '686f7fe422a2615e7da45927'" - 68
+2025-07-10 14:25:19,610 - INFO - Payload: {'firmwareVersion': 'Test_snu001-P20-040625-2025.5', 'firmwareFilename': 'Test_snu001-P20-040625-2025.5.charter', 'firmwareTransferProtocol': 'HTTPS', 'firmwareTags': {'bhn': {}, 'twc': {}, 'global': {}}, 'upgrade': True, 'metadata': {'contextId': 'QA01', 'referenceId': 'Test_snu0019528', 'externalId': 'Test_snu0011375', 'userId': 'P3289462'}} - 59
+2025-07-10 14:25:22,847 - INFO - Firmware for Test_snu001 created successfully - 66
+2025-07-10 14:25:22,847 - INFO - Success Code: 201 - 67
+2025-07-10 14:25:22,847 - INFO - Response Message: "updated firmware in document with id '686f7fe5918ff0938be2f13b'" - 68

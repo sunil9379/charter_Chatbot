@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Scroll & Click</title>
+  <style>
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Website Preview</h2>
+<iframe id="myIframe" src="https://example.com"></iframe>
+
+<script>
+  // Wait for iframe to load
+  document.getElementById('myIframe').onload = function() {
+    const iframe = document.getElementById('myIframe');
+    const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+
+    // Scroll to bottom
+    iframe.contentWindow.scrollTo(0, iframeDoc.body.scrollHeight);
+
+    // Try to click a button at the end
+    setTimeout(() => {
+      const button = iframeDoc.querySelector('button');
+      if (button) {
+        button.click();
+      } else {
+        console.log("Button not found");
+      }
+    }, 2000); // Delay to allow scroll
+  };
+</script>
+
+</body>
+</html>

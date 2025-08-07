@@ -1,0 +1,15 @@
+2025-07-10 14:25:31,620 - INFO - Device Test_ata001 successfully deleted - 50
+2025-07-10 14:25:31,620 - INFO - Response code: 204 - 51
+2025-07-10 14:25:31,620 - INFO - Response body:  - 52
+2025-07-10 14:25:34,658 - INFO - Device Test_mta001 successfully deleted - 50
+2025-07-10 14:25:34,659 - INFO - Response code: 204 - 51
+2025-07-10 14:25:34,659 - INFO - Response body:  - 52
+2025-07-10 14:25:37,967 - INFO - Device Test_cwl001 successfully deleted - 50
+2025-07-10 14:25:37,968 - INFO - Response code: 204 - 51
+2025-07-10 14:25:37,968 - INFO - Response body:  - 52
+2025-07-10 14:25:40,753 - INFO - Device Test_onu001 successfully deleted - 50
+2025-07-10 14:25:40,754 - INFO - Response code: 204 - 51
+2025-07-10 14:25:40,754 - INFO - Response body:  - 52
+2025-07-10 14:25:43,286 - INFO - Device Test_snu001 successfully deleted - 50
+2025-07-10 14:25:43,286 - INFO - Response code: 204 - 51
+2025-07-10 14:25:43,287 - INFO - Response body:  - 52

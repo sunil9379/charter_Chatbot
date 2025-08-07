@@ -1,0 +1,4 @@
+2025-05-19 20:01:31,738 - INFO - All The attributes are matching
+2025-05-19 20:01:31,739 - INFO - Test case passed
+2025-05-19 20:01:31,739 - INFO - response code:200
+2025-05-19 20:01:31,739 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}

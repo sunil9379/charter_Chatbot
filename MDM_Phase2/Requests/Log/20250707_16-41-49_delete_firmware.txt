@@ -1,0 +1,37 @@
+2025-07-07 16:42:57,774 - file3 - INFO - Test to delete the firmware initiated - 38
+2025-07-07 16:42:57,777 - file3 - INFO - deleting the firmware for ata device type with model name: Test_ata002 - 64
+2025-07-07 16:42:58,016 - file3 - INFO - Firmware Test_ata002-P15-041025-2025.2 successfully deleted - 83
+2025-07-07 16:42:58,017 - file3 - INFO - Response code: 204 - 84
+2025-07-07 16:42:58,017 - file3 - INFO - Response body:  - 85
+2025-07-07 16:42:58,740 - file3 - INFO - Firmware Test_ata002-P15-041025-2025.2 successfully deleted
+Status code: 404
+Response Body: {"detail":"Not Found"} - 91
+2025-07-07 16:42:58,741 - file3 - INFO - deleting the firmware for mta device type with model name: Test_mta002 - 64
+2025-07-07 16:42:58,982 - file3 - INFO - Firmware Test_mta002-P15-041025-2025.2 successfully deleted - 83
+2025-07-07 16:42:58,982 - file3 - INFO - Response code: 204 - 84
+2025-07-07 16:42:58,982 - file3 - INFO - Response body:  - 85
+2025-07-07 16:42:59,804 - file3 - INFO - Firmware Test_mta002-P15-041025-2025.2 successfully deleted
+Status code: 404
+Response Body: {"detail":"Not Found"} - 91
+2025-07-07 16:42:59,804 - file3 - INFO - deleting the firmware for cwl device type with model name: Test_cwl002 - 64
+2025-07-07 16:43:00,063 - file3 - INFO - Firmware Test_cwl002-P15-040625-2025.2 successfully deleted - 83
+2025-07-07 16:43:00,063 - file3 - INFO - Response code: 204 - 84
+2025-07-07 16:43:00,063 - file3 - INFO - Response body:  - 85
+2025-07-07 16:43:00,864 - file3 - INFO - Firmware Test_cwl002-P15-040625-2025.2 successfully deleted
+Status code: 404
+Response Body: {"detail":"Not Found"} - 91
+2025-07-07 16:43:00,864 - file3 - INFO - deleting the firmware for onu device type with model name: Test_onu002 - 64
+2025-07-07 16:43:01,112 - file3 - INFO - Firmware Test_onu002-P15-041025-2025.3 successfully deleted - 83
+2025-07-07 16:43:01,112 - file3 - INFO - Response code: 204 - 84
+2025-07-07 16:43:01,112 - file3 - INFO - Response body:  - 85
+2025-07-07 16:43:01,924 - file3 - INFO - Firmware Test_onu002-P15-041025-2025.3 successfully deleted
+Status code: 404
+Response Body: {"detail":"Not Found"} - 91
+2025-07-07 16:43:01,924 - file3 - INFO - deleting the firmware for snu device type with model name: Test_snu002 - 64
+2025-07-07 16:43:02,185 - file3 - INFO - Firmware Test_snu002-P15-041025-2025.2 successfully deleted - 83
+2025-07-07 16:43:02,185 - file3 - INFO - Response code: 204 - 84
+2025-07-07 16:43:02,185 - file3 - INFO - Response body:  - 85
+2025-07-07 16:43:02,970 - file3 - INFO - Firmware Test_snu002-P15-041025-2025.2 successfully deleted
+Status code: 404
+Response Body: {"detail":"Not Found"} - 91
+2025-07-07 16:43:02,970 - file3 - INFO - Test completed for deleting the firmware - 101

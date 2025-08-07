@@ -1,0 +1,28 @@
+2025-07-07 16:43:03,972 - file4 - INFO - Test initiated for get devices byType - 35
+2025-07-07 16:43:03,974 - file4 - INFO - Imported the config file - 44
+2025-07-07 16:43:04,169 - file4 - INFO - Successfully received the response  - 78
+2025-07-07 16:43:04,170 - file4 - INFO - Response code: 200
+Response Body: {"Ubee":["TVM9242","TVM924","Test_ata000","Test_ata001","Test_ata002"]} - 79
+2025-07-07 16:43:04,170 - file4 - INFO - Device Test_ata002 present in the response - 83
+2025-07-07 16:43:04,170 - file4 - INFO - ==================== - 84
+2025-07-07 16:43:04,557 - file4 - INFO - Successfully received the response  - 78
+2025-07-07 16:43:04,557 - file4 - INFO - Response code: 200
+Response Body: {"S-A":["ACD!","DPX2203C","DPX2203","DPC2203"],"Cisco":["DPC3208","DPC3216C","DPC3216","DPC3208C","DPC3941T","DPQ3925"],"Hitron":["EN2251","E31N2V1","DMM-5500"],"NETGEAR Inc.":["CM2050V"],"Broadcom":["BCM93390VV1E_256"],"Arris":["TM1602A","TM1602AP2","TM804G","TM1602G","TM402P","TM602G","TM722G","TM822G","TM402G","TM602A","TM502G","TM512A","TM504G","TM604G","TM902A","TM608G","TM502A","TM822A","TM508A","TM802G","SBV2402","SBV3202","T25","TM3202G","TM702G","TM3202A","TM632A"],"Technicolor":["ET2251","E31T2V1","Test_mta001","Test_mta002"],"Thomson":["DHG575","DHG535","DHG536"],"Ubee":["EU2251","E31U2V1","EU4251","U10C034","U10C017","U10C040","DVW320KB SIP"],"Arcadyan":["EA2251SCS"],"Sercomm":["ES4251","ES2251"],"WideView Tech":["TestModel_toosexyformyshirt"],"Motorola":["SBV5120","SBV5121E","SBV5222","SBV5322","SBV5122","SBV6220","SBV5220","SBV5121"]} - 79
+2025-07-07 16:43:04,558 - file4 - INFO - Device Test_mta002 present in the response - 83
+2025-07-07 16:43:04,558 - file4 - INFO - ==================== - 84
+2025-07-07 16:43:04,918 - file4 - INFO - Successfully received the response  - 78
+2025-07-07 16:43:04,918 - file4 - INFO - Response code: 200
+Response Body: {"Linksys":["WCG200 VER.2"],"Ruckus":["C110-NA"],"Cisco":["DPC3828","DPC3828D","DPC3848VM","DPC3848V"],"NETGEAR Inc.":["R6300v2","WNDR3800","CG3100D","C6300v2","CG3000D-RG"],"SMARTRG":["SR808AC"],"Hitron":["CGNM-2250-RES","CODA-5712","CGNM-2250-SDL","CODA-4582-RES","CGNM2250-CTR","CGNM-SDL","CGNM-CTR","CODA-4582","CGN3U","CGNM-2252-SDL","CGNM-RES","CODA-4582-ONE","CODA-4582U","CGNM-2250-SHW","CGN-MCT"],"Arris":["DG1670A","DG860A","DG1680A","DG3260A","DG860P2","DG2470A","DG3270A","DG1660A","DG3450A","DG2460A","G18","CM9200","G20","DG9450"],"Alpha":["SMG-01PE-23"],"Technicolor":["TC8715D","CGA4234DGW","TC8715","TC7300.D1E"],"Pace":["D5001"],"Ubee":["DDW366","DDW365","DDW3612RES","DDW3611","DDC2700","DDW36C","DDW2602","DDW2600","DDW3612","UBC1326AA00","UBC1301AA00"],"Askey":["SBE1V1K"],"AVM GmbH":["6591"],"Evolution":["VM3000G-EVO2100CM","CG3000-EVO3000GW"],"Motorola":["SBG6782-AC","SBG6580","SBG6782U","SBG6782","SBG6582","Test_cwl001","Test_cwl002"],"SMC Networks":["SMC8013WG","D3G1604W-CTR","D3G1604W-RES"],"TP-Link":["TC-W7960"]} - 79
+2025-07-07 16:43:04,918 - file4 - INFO - Device Test_cwl002 present in the response - 83
+2025-07-07 16:43:04,918 - file4 - INFO - ==================== - 84
+2025-07-07 16:43:05,128 - file4 - INFO - Successfully received the response  - 78
+2025-07-07 16:43:05,128 - file4 - INFO - Response code: 200
+Response Body: {"Sumitomo Electric":["FTE6083","3714"],"CommScope":["C1004"],"ADTRAN":["1004"],"CIGE":["XE-99S"],"ALCATEL":["XE-040G-A","Test_onu001","Test_onu002"]} - 79
+2025-07-07 16:43:05,128 - file4 - INFO - Device Test_onu002 present in the response - 83
+2025-07-07 16:43:05,129 - file4 - INFO - ==================== - 84
+2025-07-07 16:43:05,413 - file4 - INFO - Successfully received the response  - 78
+2025-07-07 16:43:05,413 - file4 - INFO - Response code: 200
+Response Body: {"Humax":["SONUV1H","Test_snu001","Test_snu002"],"Sagemcom":["SONUV1S"],"Hitron":["SONUV1N"]} - 79
+2025-07-07 16:43:05,413 - file4 - INFO - Device Test_snu002 present in the response - 83
+2025-07-07 16:43:05,413 - file4 - INFO - ==================== - 84
+2025-07-07 16:43:05,413 - file4 - INFO - Test Completed - 94

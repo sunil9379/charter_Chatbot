@@ -1,0 +1,168 @@
+2025-05-16 14:07:13,576 - INFO - {'status': 'Test', 'modelName': 'BE-040G-B1234', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-16 14:13:28,851 - INFO - Successfully executed the GET API
+2025-05-16 14:13:28,851 - INFO - {'status': 'Test', 'modelName': 'BE-040G-B1234', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-16 14:15:35,362 - INFO - Successfully executed the GET API
+2025-05-16 14:15:35,362 - INFO - Success!
+2025-05-16 14:15:35,364 - INFO - 200
+2025-05-16 14:15:35,364 - INFO - {'status': 'Test', 'modelName': 'BE-040G-B1234', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-16 14:29:17,332 - INFO - Successfully executed the GET API
+2025-05-16 14:29:17,333 - INFO - 200
+2025-05-16 14:29:17,333 - INFO - {'status': 'Test', 'modelName': 'BE-040G-B1234', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-16 17:14:30,142 - INFO - Successfully executed the GET API
+2025-05-16 17:14:30,144 - ERROR - Failed with Status code: 404
+2025-05-16 17:14:30,144 - ERROR - {'exc_message': 'model BE-040G-B1234 does not exist', 'exc_type': 'DataMissingException', 'exc_code': 72001, 'traceback': ['Traceback (most recent call last):\n', '  File "/usr/local/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app\n    await app(scope, receive, sender)\n', '  File "/usr/local/lib/python3.11/site-packages/starlette/routing.py", line 73, in app\n    response = await f(request)\n               ^^^^^^^^^^^^^^^^\n', '  File "/app/src/lib/fastapi_logging_route_class/request_response_logger.py", line 158, in custom_route_handler\n    response = await original_route_handler(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 301, in app\n    raw_response = await run_endpoint_function(\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 212, in run_endpoint_function\n    return await dependant.call(**values)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/app/src/api/v2/routers/catalog.py", line 790, in get_model\n    raise DataMissingException(f"model {model} does not exist")\n', 'src.models.exceptions.base_exception.DataMissingException: model BE-040G-B1234 does not exist\n']}
+2025-05-16 17:19:10,232 - INFO - Successfully executed the GET API
+2025-05-16 17:19:10,233 - ERROR - Failed with Status code: 404
+2025-05-16 17:19:10,233 - ERROR - {'exc_message': 'model BE-040G-B1234 does not exist', 'exc_type': 'DataMissingException', 'exc_code': 72001, 'traceback': ['Traceback (most recent call last):\n', '  File "/usr/local/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app\n    await app(scope, receive, sender)\n', '  File "/usr/local/lib/python3.11/site-packages/starlette/routing.py", line 73, in app\n    response = await f(request)\n               ^^^^^^^^^^^^^^^^\n', '  File "/app/src/lib/fastapi_logging_route_class/request_response_logger.py", line 158, in custom_route_handler\n    response = await original_route_handler(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 301, in app\n    raw_response = await run_endpoint_function(\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 212, in run_endpoint_function\n    return await dependant.call(**values)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/app/src/api/v2/routers/catalog.py", line 790, in get_model\n    raise DataMissingException(f"model {model} does not exist")\n', 'src.models.exceptions.base_exception.DataMissingException: model BE-040G-B1234 does not exist\n']}
+2025-05-16 17:19:10,233 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/BE-040G-B1234?referenceId=sunil&userId=123
+2025-05-16 17:21:01,591 - INFO - Successfully executed the GET API
+2025-05-16 17:31:20,961 - INFO - Successfully executed the GET API
+2025-05-16 17:31:20,963 - ERROR - One or more attributes are not matching
+2025-05-16 17:31:20,963 - ERROR - Test case is failed
+2025-05-16 17:31:20,963 - INFO - 200
+2025-05-16 17:31:20,963 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-16 17:35:43,309 - INFO - Successfully executed the GET API
+2025-05-16 17:35:43,310 - ERROR - One or more attributes are not matching
+2025-05-16 17:35:43,310 - ERROR - Test case is failed
+2025-05-16 17:35:43,310 - INFO - 200
+2025-05-16 17:35:43,310 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-16 17:39:03,446 - INFO - Successfully executed the GET API
+2025-05-16 17:39:03,447 - ERROR - One or more attributes are not matching
+2025-05-16 17:39:03,447 - ERROR - Test case is failed
+2025-05-16 17:39:03,447 - INFO - 200
+2025-05-16 17:39:03,448 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-16 17:40:44,732 - INFO - Successfully executed the GET API
+2025-05-16 17:43:48,316 - INFO - Successfully executed the GET API
+2025-05-16 17:45:01,715 - INFO - Successfully executed the GET API
+2025-05-16 17:45:01,716 - INFO - All The attributes are matching
+2025-05-16 17:45:01,716 - INFO - Test case passed
+2025-05-16 17:45:01,716 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-16%2017:44:40.358130
+2025-05-16 17:45:01,716 - INFO - 200
+2025-05-16 17:45:01,716 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-16 17:50:01,845 - INFO - Successfully executed the GET API
+2025-05-16 17:55:46,095 - INFO - Successfully executed the GET API
+2025-05-16 17:55:46,096 - INFO - All The attributes are matching
+2025-05-16 17:55:46,096 - INFO - Test case passed
+2025-05-16 17:55:46,096 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-16%2017:55:24.738729
+2025-05-16 17:55:46,096 - INFO - 200
+2025-05-16 17:55:46,096 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-16 20:37:25,940 - ERROR - Failed with Status code: 404
+2025-05-16 20:37:25,941 - ERROR - {'detail': 'Not Found'}
+2025-05-16 20:37:25,941 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/modelsABE-040G-B1234AB?referenceId=2025-05-16%2020:37:04.461704
+2025-05-16 20:43:37,477 - ERROR - Failed with Status code: 404
+2025-05-16 20:43:37,478 - ERROR - {'detail': 'Not Found'}
+2025-05-16 20:43:37,478 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/modelsABE-040G-B1234AB?referenceId=2025-05-16%2020:43:15.677903
+2025-05-16 20:44:48,359 - INFO - All The attributes are matching
+2025-05-16 20:44:48,359 - INFO - Test case passed
+2025-05-16 20:44:48,359 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-16%2020:44:26.693735
+2025-05-16 20:44:48,359 - INFO - 200
+2025-05-16 20:44:48,359 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-16 20:46:43,756 - INFO - All The attributes are matching
+2025-05-16 20:46:43,756 - INFO - Test case passed
+2025-05-16 20:46:43,756 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-16%2020:46:22.137524
+2025-05-16 20:46:43,756 - INFO - response code:response.status_code
+2025-05-16 20:46:43,757 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-16 21:24:12,267 - INFO - All The attributes are matching
+2025-05-16 21:24:12,268 - INFO - Test case passed
+2025-05-16 21:24:12,268 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-16%2021:23:50.697852
+2025-05-16 21:24:12,268 - INFO - response code:200
+2025-05-16 21:24:12,268 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-16 21:53:54,542 - INFO - All The attributes are matching
+2025-05-16 21:53:54,543 - INFO - Test case passed
+2025-05-16 21:53:54,543 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-16%2021:53:33.095681
+2025-05-16 21:53:54,543 - INFO - response code:200
+2025-05-16 21:53:54,543 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-16 21:54:39,281 - INFO - All The attributes are matching
+2025-05-16 21:54:39,282 - INFO - Test case passed
+2025-05-16 21:54:39,282 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-16%2021:54:17.780807
+2025-05-16 21:54:39,282 - INFO - response code:200
+2025-05-16 21:54:39,282 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-19 15:36:52,162 - INFO - All The attributes are matching
+2025-05-19 15:36:52,163 - INFO - Test case passed
+2025-05-19 15:36:52,163 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-19%2015:36:30.389112
+2025-05-19 15:36:52,163 - INFO - response code:200
+2025-05-19 15:36:52,163 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-19 15:39:08,580 - INFO - All The attributes are matching
+2025-05-19 15:39:08,581 - INFO - Test case passed
+2025-05-19 15:39:08,581 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-19%2015:38:46.927274
+2025-05-19 15:39:08,581 - INFO - response code:200
+2025-05-19 15:39:08,581 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-19 16:30:17,254 - INFO - All The attributes are matching
+2025-05-19 16:30:17,256 - INFO - Test case passed
+2025-05-19 16:30:17,256 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-19%2016:29:55.690502
+2025-05-19 16:30:17,256 - INFO - response code:200
+2025-05-19 16:30:17,256 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-19 16:30:38,879 - INFO - All The attributes are matching
+2025-05-19 16:30:38,879 - INFO - Test case passed
+2025-05-19 16:30:38,879 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-19%2016:30:17.258833
+2025-05-19 16:30:38,879 - INFO - response code:200
+2025-05-19 16:30:38,879 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-19 16:31:00,310 - INFO - All The attributes are matching
+2025-05-19 16:31:00,310 - INFO - Test case passed
+2025-05-19 16:31:00,310 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-19%2016:30:38.881604
+2025-05-19 16:31:00,311 - INFO - response code:200
+2025-05-19 16:31:00,311 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-19 16:31:21,907 - INFO - All The attributes are matching
+2025-05-19 16:31:21,907 - INFO - Test case passed
+2025-05-19 16:31:21,907 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-19%2016:31:00.313043
+2025-05-19 16:31:21,908 - INFO - response code:200
+2025-05-19 16:31:21,908 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-19 16:31:43,310 - INFO - All The attributes are matching
+2025-05-19 16:31:43,310 - INFO - Test case passed
+2025-05-19 16:31:43,310 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-19%2016:31:21.910780
+2025-05-19 16:31:43,310 - INFO - response code:200
+2025-05-19 16:31:43,310 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-19 16:34:03,202 - INFO - All The attributes are matching
+2025-05-19 16:34:03,203 - INFO - Test case passed
+2025-05-19 16:34:03,203 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-19%2016:33:41.787415
+2025-05-19 16:34:03,203 - INFO - response code:200
+2025-05-19 16:34:03,203 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-19 16:34:24,829 - INFO - All The attributes are matching
+2025-05-19 16:34:24,830 - INFO - Test case passed
+2025-05-19 16:34:24,830 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-19%2016:34:03.206560
+2025-05-19 16:34:24,830 - INFO - response code:200
+2025-05-19 16:34:24,830 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-19 16:34:46,229 - INFO - All The attributes are matching
+2025-05-19 16:34:46,229 - INFO - Test case passed
+2025-05-19 16:34:46,229 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-19%2016:34:24.832761
+2025-05-19 16:34:46,229 - INFO - response code:200
+2025-05-19 16:34:46,229 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-19 16:35:07,846 - INFO - All The attributes are matching
+2025-05-19 16:35:07,846 - INFO - Test case passed
+2025-05-19 16:35:07,846 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-19%2016:34:46.231381
+2025-05-19 16:35:07,846 - INFO - response code:200
+2025-05-19 16:35:07,846 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-19 16:35:29,251 - INFO - All The attributes are matching
+2025-05-19 16:35:29,251 - INFO - Test case passed
+2025-05-19 16:35:29,251 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-19%2016:35:07.849538
+2025-05-19 16:35:29,252 - INFO - response code:200
+2025-05-19 16:35:29,252 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-19 21:29:27,786 - INFO - All The attributes are matching
+2025-05-19 21:29:27,788 - INFO - Test case passed
+2025-05-19 21:29:27,788 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-19%2021:29:06.204042
+2025-05-19 21:29:27,788 - INFO - response code:200
+2025-05-19 21:29:27,788 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-19 21:31:23,810 - INFO - All The attributes are matching
+2025-05-19 21:31:23,811 - INFO - Test case passed
+2025-05-19 21:31:23,811 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-19%2021:31:02.357254
+2025-05-19 21:31:23,811 - INFO - response code:200
+2025-05-19 21:31:23,811 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-19 21:31:45,270 - INFO - Successfully executed the POST API
+2025-05-19 21:31:45,271 - INFO - {'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}, 'status': 'Test', 'metadata': {'contextId': 'QA01', 'referenceId': '2025-05-19 21:31:23.900758', 'externalId': 'Test2025-05-19 21:31:23.900758', 'userId': 'P3205066'}}
+2025-05-19 21:31:45,271 - INFO - {'exc_message': "model __root__=TestStageDeviceRouteModel(status='Test', modelName='ABE-040G-B1234AB', vendorName='ALCATEL', modelDesc=TestModelDesc(deviceTypeName=<DeviceTypesV2.ONU: 'onu'>, deviceType=TestDeviceType(docsisVersion='3.1')), metadata=Metadata(contextId='QA01', referenceId='2025-05-19 21:31:23.900758', externalId='Test2025-05-19 21:31:23.900758', userId='P3205066'), _key=MongoKeyModel(name='QUJFLTA0MEctQjEyMzRBQg==', raw_name='ABE-040G-B1234AB')) already exists", 'exc_type': 'DataConflictException', 'exc_code': 72003, 'traceback': ['Traceback (most recent call last):\n', '  File "/usr/local/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app\n    await app(scope, receive, sender)\n', '  File "/usr/local/lib/python3.11/site-packages/starlette/routing.py", line 73, in app\n    response = await f(request)\n               ^^^^^^^^^^^^^^^^\n', '  File "/app/src/lib/fastapi_logging_route_class/request_response_logger.py", line 158, in custom_route_handler\n    response = await original_route_handler(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 301, in app\n    raw_response = await run_endpoint_function(\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 212, in run_endpoint_function\n    return await dependant.call(**values)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/app/src/api/v2/routers/catalog.py", line 265, in wrapper\n    return await f(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/app/src/api/v2/routers/catalog.py", line 503, in create_model\n    raise DataConflictException(f"model {model} already exists")\n', "src.models.exceptions.base_exception.DataConflictException: model __root__=TestStageDeviceRouteModel(status='Test', modelName='ABE-040G-B1234AB', vendorName='ALCATEL', modelDesc=TestModelDesc(deviceTypeName=<DeviceTypesV2.ONU: 'onu'>, deviceType=TestDeviceType(docsisVersion='3.1')), metadata=Metadata(contextId='QA01', referenceId='2025-05-19 21:31:23.900758', externalId='Test2025-05-19 21:31:23.900758', userId='P3205066'), _key=MongoKeyModel(name='QUJFLTA0MEctQjEyMzRBQg==', raw_name='ABE-040G-B1234AB')) already exists\n"]}
+2025-05-19 21:31:45,271 - INFO - 409
+2025-05-19 21:32:06,672 - INFO - Successfully executed the PUT API
+2025-05-19 21:32:06,672 - ERROR - Failed with Status code: 400
+2025-05-19 21:32:06,672 - ERROR - {'exc_message': 'should not specify sbiServiceDesc if sbiService is false', 'exc_type': 'DataIssueException', 'exc_code': 72002, 'traceback': ['Traceback (most recent call last):\n', '  File "/usr/local/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app\n    await app(scope, receive, sender)\n', '  File "/usr/local/lib/python3.11/site-packages/starlette/routing.py", line 73, in app\n    response = await f(request)\n               ^^^^^^^^^^^^^^^^\n', '  File "/app/src/lib/fastapi_logging_route_class/request_response_logger.py", line 158, in custom_route_handler\n    response = await original_route_handler(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 301, in app\n    raw_response = await run_endpoint_function(\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 212, in run_endpoint_function\n    return await dependant.call(**values)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/app/src/api/v2/routers/catalog.py", line 265, in wrapper\n    return await f(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/app/src/api/v2/routers/catalog.py", line 674, in update_device\n    raise DataIssueException("should not specify sbiServiceDesc if sbiService is false")\n', 'src.models.exceptions.base_exception.DataIssueException: should not specify sbiServiceDesc if sbiService is false\n']}
+2025-05-19 21:32:06,673 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?status=Certified
+2025-05-19 21:35:58,519 - INFO - All The attributes are matching
+2025-05-19 21:35:58,520 - INFO - Test case passed
+2025-05-19 21:35:58,520 - INFO - https://east-deviceopedia-qa-mdm.caas.charterlab.com/v2/catalog/models/ABE-040G-B1234AB?referenceId=2025-05-19%2021:35:37.098462
+2025-05-19 21:35:58,520 - INFO - response code:200
+2025-05-19 21:35:58,520 - INFO - {'status': 'Test', 'modelName': 'ABE-040G-B1234AB', 'vendorName': 'ALCATEL', 'modelDesc': {'deviceTypeName': 'onu', 'deviceType': {'docsisVersion': '3.1'}}}
+2025-05-19 21:36:23,207 - INFO - Successfully executed the PUT API
+2025-05-19 21:36:23,207 - INFO - Success response received
+2025-05-19 21:36:23,207 - INFO - updated device ABE-040G-B1234AB within document id 682704a56fa68da6fecfef9e
+2025-05-19 21:36:23,207 - INFO - 201
+2025-05-19 21:36:23,207 - INFO - response code:201
+2025-05-19 21:36:23,207 - INFO - updated device ABE-040G-B1234AB within document id 682704a56fa68da6fecfef9e

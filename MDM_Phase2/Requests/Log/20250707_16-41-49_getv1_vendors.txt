@@ -1,0 +1,4 @@
+2025-07-07 16:43:15,817 - file10 - INFO - Test initiated for get vendor v1 - 34
+2025-07-07 16:43:17,693 - file10 - INFO - Response status code: 200 - 63
+2025-07-07 16:43:17,693 - file10 - INFO - Response text: ["ADB","ADTRAN","ALCATEL","AVM GmbH","Actiontec","Airspan","Alpha","Arcadyan","Arris","Askey","Asus","BelAir","Broadcom","CIGE","Cisco","CommScope","DLink","Electroline","Evolution","Hitron","Huawei","Humax","InnoMedia Inc.","JDSU","Linksys","Motorola","NET&SYS","NETGEAR Inc.","NOKIA","Pace","Rembrandt","Ruckus","S-A","SMARTRG","SMC Networks","Sagemcom","Samsung","Sercomm","Sumitomo Electric","TP-Link","Technicolor","Terayon","Thomson","Tollgrade","Toshiba","Trilithic","Ubee","Ubiquiti Inc.","Vecima","Veex","Viavi Solutions","WideView Tech","Zoom","ZyXEL"] - 64
+2025-07-07 16:43:17,694 - file10 - INFO - Execution for get Vendor v1 completed - 77

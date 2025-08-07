@@ -1,0 +1,5 @@
+2025-07-07 16:43:12,540 - file8 - INFO - Test initiated for get excluded devices - 34
+2025-07-07 16:43:12,691 - file8 - INFO - Response code: 200 - 59
+2025-07-07 16:43:12,691 - file8 - INFO - Response body: ["ata","gwr","mtr","trn","stb","scp","twl"] - 60
+2025-07-07 16:43:12,841 - file8 - INFO - Response code: 200 - 68
+2025-07-07 16:43:12,841 - file8 - INFO - Response body: ["ata","gwr","mtr","psm","stb","scp","twl","wap"] - 69

@@ -1,0 +1,126 @@
+{
+  "mtamodel": {
+  "modelName":"TESTMTA041",
+  "vendorName":"Motorola",
+  "status":"Certified",
+  "modelDesc":{
+    "chipsetVersion":"BCM3390",
+    "chipset":"Broadcom",
+    "modelTags":{
+      "bhn":{
+
+      },
+      "twc":{
+
+      },
+      "global":{
+
+      }
+    },
+    "deviceTypeName":"mta",
+    "deviceType":{
+      "batteryBackupType":"internal",
+      "batteryStandbyTime":24,
+      "batteryTalkTime":5,
+      "docsisVersion":"2.0",
+      "cvc":[
+        "docsis31"
+      ],
+      "capTunerDown":6,
+      "capTunerUp":6,
+      "capTunerOfdmDown":2,
+      "capTunerOfdmUp":2,
+      "bpi":true,
+      "acceptableHighRX":-27,
+      "acceptableHighTX":40,
+      "acceptableLowRX":-1,
+      "acceptableLowTX":-1,
+      "ethernetPortMap":{
+        "wanPort":0,
+        "ataPort":0,
+        "lanPort1":0,
+        "lanPort2":0,
+        "lanPort3":0,
+        "lanPort4":0,
+        "lanPort5":0
+      },
+      "packetCableType":"1.5&2.0",
+      "maxPwrBoost":1000000,
+      "maxEthernetPorts":4,
+      "maxVoipPorts":2,
+      "maxDown":10000000,
+      "maxUp":100000,
+      "highSplitCert":true,
+      "iCmtsCert":true,
+      "rphyCert":true,
+      "rmdCert":true,
+      "iperfVersion":"iperf-3.18",
+      "iperfTags":[]
+    }
+    },
+    "serviceDesc":{
+      "dexProv":false,
+      "intService":false,
+      "sbiServiceDesc":{
+        "priCertified":false,
+        "sbiMaxDown":0,
+        "sbiMaxUp":0
+      },
+      "sbiService":false,
+      "resService":true,
+      "resServiceDesc":{
+        "mduEnabled":false,
+        "resMaxDown":0,
+        "resMaxUp":0
+      }
+    },
+    "firmwareDesc":{
+      "defaultVersion":"TESTMTA041-P20-050325-2025.1",
+      "eMtaFirmware":"TESTMTA041-P15-050325-2025.1",
+      "eDvaFirmware":"TESTMTA041-P20-050325-2025.1",
+      "eBbuFirmware":null,
+      "firmwareVersions":[
+        {
+          "firmwareVersion":"TESTMTA041-P20-050325-2025.1",
+          "firmwareFilename":"TESTMTA041-P20-050325-2025.1.charter",
+          "firmwareTransferProtocol":"HTTPS",
+          "firmwareTags":{
+            "bhn":{
+
+            },
+            "twc":{
+
+            },
+            "global":{
+
+            }
+          },
+          "upgrade":true
+        },
+        {
+          "firmwareVersion":"TESTMTA041-P15-050325-2025.1",
+          "firmwareFilename":"TESTMTA041-P15-050325-2025.1.charter",
+          "firmwareTransferProtocol":"HTTPS",
+          "firmwareTags":{
+            "bhn":{
+
+            },
+            "twc":{
+
+            },
+            "global":{
+
+            }
+          },
+          "upgrade":true
+        }
+      ]
+    },
+    "metadata":{
+      "contextId":"QA",
+      "referenceId":"CITPUT1786220",
+      "externalId":"CITPUT1786220",
+      "userId":"P3205066"
+    }
+}
+}

@@ -1,0 +1,17 @@
+{
+  "modelName": "",
+  "vendorName": "",
+  "modelDesc": {
+    "deviceTypeName": "",
+    "deviceType": {
+      "docsisVersion": "1.1"
+    }
+  },
+   "status":"Test",
+  "metadata": {
+    "contextId": "qa01",
+    "referenceId": "",
+    "externalId": "",
+    "userId": "p3289462"
+  }
+}

@@ -1,0 +1,11 @@
+2025-07-10 14:23:00,371 - INFO - Test initiated for updating the firmware description - 29
+2025-07-10 14:23:00,617 - INFO - Updating the firmware description for Test_ata001 - 54
+2025-07-10 14:23:00,618 - INFO - Firmware updated successfully for Test_ata001 - 57
+2025-07-10 14:23:00,852 - INFO - Updating the firmware description for Test_mta001 - 54
+2025-07-10 14:23:00,852 - INFO - Firmware updated successfully for Test_mta001 - 57
+2025-07-10 14:23:01,093 - INFO - Updating the firmware description for Test_cwl001 - 54
+2025-07-10 14:23:01,093 - INFO - Firmware updated successfully for Test_cwl001 - 57
+2025-07-10 14:23:01,325 - INFO - Updating the firmware description for Test_onu001 - 54
+2025-07-10 14:23:01,325 - INFO - Firmware updated successfully for Test_onu001 - 57
+2025-07-10 14:23:01,564 - INFO - Updating the firmware description for Test_snu001 - 54
+2025-07-10 14:23:01,564 - INFO - Firmware updated successfully for Test_snu001 - 57

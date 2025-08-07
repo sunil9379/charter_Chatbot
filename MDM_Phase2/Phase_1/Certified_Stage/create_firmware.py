@@ -1,0 +1,82 @@
+import copy
+import random
+import time
+from dotenv import load_dotenv
+import os
+import datetime
+import requests
+import json
+import urllib3
+from Phase_1.log_setup import setup_log
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+load_dotenv()
+config_file_path = os.environ.get("P1_CONFIG_PATH")
+req_dir_path = os.environ.get("P1_CERTIFY_LOG_PATH")
+payload_certify = os.environ.get("P1_CERTIFY_PAYLOAD")
+
+# set up log file
+timestamp = datetime.datetime.now().strftime("%Y%m%d_%H-%M-%S")
+log_dir = os.path.join(os.path.dirname(__file__), f"{req_dir_path}")
+os.makedirs(log_dir, exist_ok=True)
+log_file = os.path.join(log_dir, f"{timestamp}_create_certify_firmwares.txt")
+logger = setup_log(log_file, logger_name="file4")
+
+def certify_create_firmware():
+    print("Test initiated for creating firmware")
+    logger.info("Test initiated for creating firmware")
+
+    with open(config_file_path, "r") as f:
+        config = json.load(f)
+        data = config["post_firmware"]
+    url = config["url"]
+    token = config["token"]
+
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {token}"
+    }
+
+    try:
+        for m in config["models_v2"]:
+            payload = copy.deepcopy(data)
+            devices = config["test_devices"][m]
+            murl = f"{url}v2/catalog/models/{devices}/firmwares"
+
+            firmwareversion = f"{devices}-P20-040625-2025.5"
+            firmware_filename = f"{firmwareversion}.charter"
+            firmwaretp = "HTTPS"
+            ref_id = devices + str(random.randint(1000,9999))
+            ext_id = devices + str(random.randint(1000,9999))
+
+            payload['firmwareVersion'] = firmwareversion
+            payload['firmwareFilename'] = firmware_filename
+            payload['firmwareTransferProtocol'] = firmwaretp
+            payload['metadata']['externalId'] = ext_id
+            payload['metadata']['referenceId'] = ref_id
+
+            print(payload)
+            logger.info(f"Payload: {payload}")
+            #print(murl)
+            time.sleep(3)
+            response = requests.post(url=murl, json=payload, headers=headers,verify=False)
+
+            if response.status_code == 201:
+                print("Firmware created successfully")
+                logger.info(f"Firmware for {devices} created successfully")
+                logger.info(f"Success Code: {response.status_code}")
+                logger.info(f"Response Message: {response.text}")
+
+                config["certify_firmwares"][m] = firmwareversion
+                with open(config_file_path, "w") as f:
+                    json.dump(config,f,indent=4)
+            elif response.status_code == 500:
+                time.sleep(5)
+                response = requests.post(url=murl, json=json.dumps(payload), headers=headers, verify=False)
+                print(f"Second run\ncode: {response.status_code}\nresponse: {response.text}")
+            else:
+                print(f"Firmware creation failed\ncode:{response.status_code}\nbody{response.text}")
+    except Exception as e:
+        print(e)
+
+#certify_create_firmware()

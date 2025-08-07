@@ -1,0 +1,6 @@
+2025-07-07 16:43:08,994 - file6 - INFO - Test initiated for get device definition - 33
+2025-07-07 16:43:09,329 - file6 - INFO - Response status code for V1: 200 - 69
+2025-07-07 16:43:09,329 - file6 - INFO - Response text for V1: {"MTA":"Multimedia Terminal Adaptor","MDM":"Standalone Cable Modem","CWD":"Coax Wired Device","CWL":"Coax Wireless Device","STB":"Set-Top Box","TRN":"Transponder","TWL":"Telephony Wireless Device","MTR":"Technician Meter","ONU":"Optical Network Unit","SONU":"Spectrum/Service Optical Network Unit","GWR":"Generic Wireless Router","ATA":"Analog Telephone Adapter","SCP":"SCP Router"} - 70
+2025-07-07 16:43:09,331 - file6 - INFO - Response status code for V2: 200 - 71
+2025-07-07 16:43:09,331 - file6 - INFO - Response text for V2: {"ata":"Analog Telephone Adapter","cwl":"Coax Wireless Device","gwr":"Generic Wireless Router","hmn":"Host Mobile Network","mdm":"Standalone Cable Modem","mta":"Multimedia Terminal Adaptor","mtr":"Technician Meter","onu":"Optical Network Unit","psm":"Power Supply Monitor","snu":"Spectrum Branded ONU","stb":"Set-Top Box","scp":"SCP Router","twl":"Telephony Wireless Device","wap":"Wireless Access Point"} - 72
+2025-07-07 16:43:09,331 - file6 - INFO - Execution for get device definition completed - 85

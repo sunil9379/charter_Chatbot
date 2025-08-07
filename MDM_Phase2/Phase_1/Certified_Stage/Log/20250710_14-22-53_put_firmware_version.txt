@@ -1,0 +1,59 @@
+2025-07-10 14:22:53,168 - INFO - Test initiated to update firmware version - 26
+2025-07-10 14:22:53,170 - INFO - Updating the firmware for device Test_ata001 and firmware Test_ata001-P20-040625-2025.5 - 56
+2025-07-10 14:22:53,414 - INFO - Firmware Test_ata001-P20-040625-2025.5 updated successfully
+status code: 201
+response: "updated firmware in document with id '686f7f3ab9221b38e60e2649'" - 62
+2025-07-10 14:22:53,416 - INFO - Updating the firmware for device Test_mta001 and firmware Test_mta001-P20-040625-2025.5 - 56
+2025-07-10 14:22:53,651 - INFO - Firmware Test_mta001-P20-040625-2025.5 updated successfully
+status code: 201
+response: "updated firmware in document with id '686f7f3a52dd5c42470e2648'" - 62
+2025-07-10 14:22:53,654 - INFO - Updating the firmware for device Test_cwl001 and firmware Test_cwl001-P20-040625-2025.5 - 56
+2025-07-10 14:22:53,889 - INFO - Firmware Test_cwl001-P20-040625-2025.5 updated successfully
+status code: 201
+response: "updated firmware in document with id '686f7f3a918ff0938be2f139'" - 62
+2025-07-10 14:22:53,892 - INFO - Updating the firmware for device Test_onu001 and firmware Test_onu001-P20-040625-2025.5 - 56
+2025-07-10 14:22:54,135 - INFO - Firmware Test_onu001-P20-040625-2025.5 updated successfully
+status code: 201
+response: "updated firmware in document with id '686f7f3bfe9d40e679a45920'" - 62
+2025-07-10 14:22:54,137 - INFO - Updating the firmware for device Test_snu001 and firmware Test_snu001-P20-040625-2025.5 - 56
+2025-07-10 14:22:54,371 - INFO - Firmware Test_snu001-P20-040625-2025.5 updated successfully
+status code: 201
+response: "updated firmware in document with id '686f7f3b21b0af25e3ae85d6'" - 62
+2025-07-10 14:24:47,112 - INFO - -------------------------------**---------------------------- - 26
+2025-07-10 14:24:47,112 - INFO - Test initiated to create device in test stage - 28
+2025-07-10 14:24:47,115 - INFO - Imported the payload and config file - 42
+2025-07-10 14:24:47,388 - INFO - ====================================================== - 70
+2025-07-10 14:24:47,388 - INFO - Device created for ata in test stage successfully
+Response Body: {"detail":"created document with id 686f7fd7d8ea99e2d8e2f13d"} - 74
+2025-07-10 14:24:47,666 - INFO - ====================================================== - 70
+2025-07-10 14:24:47,666 - INFO - Device created for mta in test stage successfully
+Response Body: {"detail":"created document with id 686f7fd72bc2dbf647b9232c"} - 74
+2025-07-10 14:24:47,938 - INFO - ====================================================== - 70
+2025-07-10 14:24:47,938 - INFO - Device created for cwl in test stage successfully
+Response Body: {"detail":"created document with id 686f7fd8d8ea99e2d8e2f13e"} - 74
+2025-07-10 14:24:48,217 - INFO - ====================================================== - 70
+2025-07-10 14:24:48,217 - INFO - Device created for onu in test stage successfully
+Response Body: {"detail":"created document with id 686f7fd82bc2dbf647b9232d"} - 74
+2025-07-10 14:24:48,496 - INFO - ====================================================== - 70
+2025-07-10 14:24:48,496 - INFO - Device created for snu in test stage successfully
+Response Body: {"detail":"created document with id 686f7fd8fe9d40e679a45921"} - 74
+2025-07-10 14:24:48,498 - INFO - Test completed for test stage - 91
+2025-07-10 14:24:59,720 - INFO - -------------------------------**---------------------------- - 26
+2025-07-10 14:24:59,720 - INFO - Test initiated to create device in test stage - 28
+2025-07-10 14:24:59,723 - INFO - Imported the payload and config file - 42
+2025-07-10 14:25:00,011 - INFO - ====================================================== - 70
+2025-07-10 14:25:00,012 - INFO - Device created for ata in test stage successfully
+Response Body: {"detail":"created document with id 686f7fe451a712964dae85d0"} - 74
+2025-07-10 14:25:00,290 - INFO - ====================================================== - 70
+2025-07-10 14:25:00,290 - INFO - Device created for mta in test stage successfully
+Response Body: {"detail":"created document with id 686f7fe4ff850ba1d2e2f13a"} - 74
+2025-07-10 14:25:00,579 - INFO - ====================================================== - 70
+2025-07-10 14:25:00,580 - INFO - Device created for cwl in test stage successfully
+Response Body: {"detail":"created document with id 686f7fe4918ff0938be2f13a"} - 74
+2025-07-10 14:25:00,856 - INFO - ====================================================== - 70
+2025-07-10 14:25:00,857 - INFO - Device created for onu in test stage successfully
+Response Body: {"detail":"created document with id 686f7fe422a2615e7da45927"} - 74
+2025-07-10 14:25:01,145 - INFO - ====================================================== - 70
+2025-07-10 14:25:01,145 - INFO - Device created for snu in test stage successfully
+Response Body: {"detail":"created document with id 686f7fe5918ff0938be2f13b"} - 74
+2025-07-10 14:25:01,147 - INFO - Test completed for test stage - 91

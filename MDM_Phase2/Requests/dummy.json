@@ -1,0 +1,97 @@
+{
+    "modelName": "Test_ata000",
+    "vendorName": "Ubee",
+    "modelDesc": {
+      "chipsetVersion": "BCM3390",
+      "chipset": "Broadcom",
+      "modelTags": {
+        "bhn": {},
+        "twc": {},
+        "glb": {}
+      },
+      "deviceTypeName": "ata",
+      "deviceType": {
+        "maxVoipPorts": 2,
+        "acsManaged": true
+      }
+    },
+    "status": "Deploy",
+    "firmwareDesc": {
+      "defaultVersion": "Test_ata000-P20-041025-2025.1",
+      "eMtaFirmware": "Test_ata000-P15-041025-2025.1",
+      "eDvaFirmware": "Test_ata000-P20-041025-2025.1",
+      "eBbuFirmware": null,
+      "firmwareVersions": [
+        {
+          "firmwareVersion": "Test_ata000-P20-041025-2025.1",
+          "firmwareFilename": "Test_ata000-P20-041025-2025.1.charter",
+          "firmwareTransferProtocol": "HTTPS",
+          "firmwareTags": {
+            "bhn":
+           {
+             "autoprov": "",
+             "device-class": "ata",
+             "ipv6-cpe": "",
+             "smh": "",
+             "throughput-cap": "1G",
+             "voice-class": "ata"
+           },
+            "twc":
+            {
+              "autoprov": "",
+              "device-class": "ata",
+              "ipv6-cpe": "",
+              "smh": "",
+              "throughput-cap": "1G",
+              "voice-class": "ata"
+            },
+            "glb": {}
+          },
+          "upgrade": true
+        },
+        {
+          "firmwareVersion": "Test_ata000-P15-041025-2025.1",
+          "firmwareFilename": "Test_ata000-P15-041025-2025.1.charter",
+          "firmwareTransferProtocol": "HTTPS",
+          "firmwareTags": {
+            "bhn": {},
+            "twc": {},
+            "glb": {}
+          },
+          "upgrade": true
+        },
+		{
+          "firmwareVersion": "Test_ata000-P15-041025-2025.2",
+          "firmwareFilename": "Test_ata000-P15-041025-2025.2.charter",
+          "firmwareTransferProtocol": "HTTPS",
+          "firmwareTags": {
+            "bhn": {},
+            "twc": {},
+            "glb": {}
+          },
+          "upgrade": true
+        }
+      ]
+    },
+    "serviceDesc": {
+      "dexProv": false,
+      "intService": false,
+      "sbiServiceDesc": {
+        "priCertified": false,
+        "sbiMaxDown": 0,
+        "sbiMaxUp": 0
+      },
+      "sbiService": true,
+      "resService": true,
+      "resServiceDesc": {
+        "mduEnabled": false,
+        "resMaxDown": 0,
+        "resMaxUp": 0
+      }
+    },
+    "blocked": false,
+    "destroyStatus": false,
+    "vendorAlias": null
+  }
+
+

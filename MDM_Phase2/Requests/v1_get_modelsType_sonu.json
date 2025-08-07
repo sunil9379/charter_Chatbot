@@ -1,0 +1,13 @@
+{
+    "Humax": [
+        "SONUV1H",
+        "Test_snu01"
+    ],
+    "Sagemcom": [
+        "SONUV1S"
+    ],
+    "Hitron": [
+        "SONUV1N",
+        "SONUV1N234"
+    ]
+}

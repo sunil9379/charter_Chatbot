@@ -1,0 +1,27 @@
+2025-07-10 14:22:56,367 - INFO - Test initiated for get all firmwares v1 - 26
+2025-07-10 14:22:56,561 - INFO - Response for Test_ata001 device - 55
+2025-07-10 14:22:56,561 - INFO - Success response for Test_ata001 device - 58
+2025-07-10 14:22:56,561 - INFO - Success Code: 200
+Body: ["Test_ata001-P15-040625-2025.1","Test_ata001-P20-040625-2025.1","Test_ata001-P20-040625-2025.6"] - 59
+2025-07-10 14:22:56,789 - INFO - Response for Test_mta001 device - 55
+2025-07-10 14:22:56,790 - INFO - Success response for Test_mta001 device - 58
+2025-07-10 14:22:56,790 - INFO - Success Code: 200
+Body: ["Test_mta001-P15-040625-2025.1","Test_mta001-P20-040625-2025.1","Test_mta001-P20-040625-2025.2","Test_mta001-P20-040625-2025.6"] - 59
+2025-07-10 14:22:56,982 - INFO - Response for Test_cwl001 device - 55
+2025-07-10 14:22:56,982 - INFO - Success response for Test_cwl001 device - 58
+2025-07-10 14:22:56,982 - INFO - Success Code: 200
+Body: ["Test_cwl001-P15-040625-2025.1","Test_cwl001-P20-040625-2025.1","Test_cwl001-P20-040625-2025.6"] - 59
+2025-07-10 14:22:57,177 - INFO - Response for Test_onu001 device - 55
+2025-07-10 14:22:57,177 - INFO - Success response for Test_onu001 device - 58
+2025-07-10 14:22:57,177 - INFO - Success Code: 200
+Body: ["Test_onu001-P15-040625-2025.1","Test_onu001-P20-040625-2025.1","Test_onu001-P20-040625-2025.6"] - 59
+2025-07-10 14:22:57,363 - INFO - Response for Test_snu001 device - 55
+2025-07-10 14:22:57,364 - INFO - Success response for Test_snu001 device - 58
+2025-07-10 14:22:57,364 - INFO - Success Code: 200
+Body: ["Test_snu001-P15-040625-2025.1","Test_snu001-P20-040625-2025.1","Test_snu001-P20-040625-2025.6"] - 59
+2025-07-10 14:22:57,364 - INFO - Start of Validation - 89
+2025-07-10 14:22:57,364 - INFO - Firmware Test_ata001-P20-040625-2025.6 present in response - 95
+2025-07-10 14:22:57,364 - INFO - Firmware Test_mta001-P20-040625-2025.6 present in response - 95
+2025-07-10 14:22:57,364 - INFO - Firmware Test_cwl001-P20-040625-2025.6 present in response - 95
+2025-07-10 14:22:57,365 - INFO - Firmware Test_onu001-P20-040625-2025.6 present in response - 95
+2025-07-10 14:22:57,365 - INFO - Firmware Test_snu001-P20-040625-2025.6 present in response - 95

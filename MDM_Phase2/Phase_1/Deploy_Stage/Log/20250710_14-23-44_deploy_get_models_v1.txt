@@ -1,0 +1,27 @@
+2025-07-10 14:23:44,139 - INFO - Test initiated to get v1 devices - 23
+2025-07-10 14:23:44,141 - INFO - Getting response for device Test_ata001 - 53
+2025-07-10 14:23:44,447 - INFO - Getting success response for device Test_ata001 - 58
+2025-07-10 14:23:44,447 - INFO - Success code: 200
+Response Body: ["DDW366","U10C022","DDC2702","DDW2608","DDW365","EU4251","DDM352.2","U10C019","U10C017","DVW3201B","EU2251","DDW3612RES","U10C018","E31U2V1","DDM354","U10C034","TVM9242","DVM3203B","UBC1302","DDM3521","DDW3611","DDC2700","DDW36C","DDW2602","DDM3513","DVW32CB","TVM924","60740EU","DDW2600","U10C020","U10C056","DDW3612","DDW3652","DVW320KB","DVW320KB SIP","UBC1326AA00","CM 60740EUW","UBC1322BA00","UBC1301AA00","CM 60678EU","UBC1319AA00","DVW326","U10C035","U10C040","UBC1338AA92","Test_ata002","Test_ata000","Test_ata168","Test_ata582","Test_ata001"] - 59
+2025-07-10 14:23:44,448 - INFO - Device Test_ata001 present in response body - 63
+2025-07-10 14:23:44,448 - INFO - Getting response for device Test_mta001 - 53
+2025-07-10 14:23:44,796 - INFO - Getting success response for device Test_mta001 - 58
+2025-07-10 14:23:44,796 - INFO - Success code: 200
+Response Body: ["9865","TC8715D","E31T2V1","TC8717T","TC4400","Spectrum101-T","Spectrum210-T","Spectrum110-T","ET2251","TC4310","Spectrum201-T","TC8305C","TC4400-GEN","CGA4234DGW","CGA4234VGW","CGM4140COM","TC4300","TC8715","TC8717","CGM4331COM","CGM4981COM","CGA4236VGW-TCH3","CVA4003TCH1","CVA4004TCH1","CGA4131COM","CGA4332COM","TC7300.D1E","TC4400-CMT","CGA4236TAR","CGM4231","CGA4131TCH2","Test_mta002","Test_mta000","Test_mta474","Test_mta100","Test_mta001"] - 59
+2025-07-10 14:23:44,796 - INFO - Device Test_mta001 present in response body - 63
+2025-07-10 14:23:44,796 - INFO - Getting response for device Test_cwl001 - 53
+2025-07-10 14:23:45,075 - INFO - Getting success response for device Test_cwl001 - 58
+2025-07-10 14:23:45,075 - INFO - Success code: 200
+Response Body: ["DCX-3200","DCX-3220","DCX3600M","SBG6580","SB6120","SB6141","SBG901","SB5101U","SB6121","SBV5220","SB5101N","SBG6782-AC","SB6183","IP805","SBG6400","SB5101","SBG6782U","MB7621","MG8702","SBG6700-AC","MG7700","MG8725","B12","MB8611","DCT-6412","DCT-6416","DCX-3450","SB5101E","SB5102E","SB6120E","SB6141E","SBG900","SBG940","SBV5121E","SBV5122","SVG6582","DCX-3432","DCX-3510","SB5100","SB5102","SB5120","SB6180","SB6182","SBG6782","SBG941","SBV5120","SBV5121","SBV5222","SBV5322","SBV6220","DCX3200M","DCX3400M","DCX3510M","MT7711","DCX-3200M","DCX-3520","DCX-3500","DCX-3425","MT8733","SBG6582","Test_cwl002","Test_cwl221","Test_cwl001"] - 59
+2025-07-10 14:23:45,075 - INFO - Device Test_cwl001 present in response body - 63
+2025-07-10 14:23:45,075 - INFO - Getting response for device Test_onu001 - 53
+2025-07-10 14:23:45,270 - INFO - Getting success response for device Test_onu001 - 58
+2025-07-10 14:23:45,270 - INFO - Success code: 200
+Response Body: ["XE-040G-A","Test_onu002","Test_onu867","Test_onu001"] - 59
+2025-07-10 14:23:45,271 - INFO - Device Test_onu001 present in response body - 63
+2025-07-10 14:23:45,271 - INFO - Getting response for device Test_snu001 - 53
+2025-07-10 14:23:45,515 - INFO - Getting success response for device Test_snu001 - 58
+2025-07-10 14:23:45,515 - INFO - Success code: 200
+Response Body: ["Spectrum210-H","Spectrum101-H","SPECTRUM210-H","SPECTRUM101-H","SPECTRUM110-H","HSC-1-H","Spectrum110-H","SONUV1H","Spectrum100-H","HGD310","Spectrum201-H","SPECTRUM201-H","SPECTRUM200-H","Test_snu002","Test_snu898","Test_snu001"] - 59
+2025-07-10 14:23:45,515 - INFO - Device Test_snu001 present in response body - 63
+2025-07-10 14:23:45,515 - INFO - Test completed for get models v1 - 77

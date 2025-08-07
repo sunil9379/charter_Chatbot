@@ -1,0 +1,11 @@
+2025-07-10 14:23:01,567 - INFO - Test initiated for get firmware info v1 - 135
+2025-07-10 14:23:01,759 - INFO - Getting v1 firmware info for device Test_ata001,vendor Ubee,firmware Test_ata001-P20-040625-2025.6 - 152
+2025-07-10 14:23:01,759 - INFO - validation Successful. From get firmware info the description has been updated for value edvaFirmware for device Test_ata001 - 159
+2025-07-10 14:23:01,960 - INFO - Getting v1 firmware info for device Test_mta001,vendor Technicolor,firmware Test_mta001-P20-040625-2025.6 - 152
+2025-07-10 14:23:01,961 - INFO - validation Successful. From get firmware info the description has been updated for value edvaFirmware for device Test_mta001 - 159
+2025-07-10 14:23:02,156 - INFO - Getting v1 firmware info for device Test_cwl001,vendor Motorola,firmware Test_cwl001-P20-040625-2025.6 - 152
+2025-07-10 14:23:02,157 - INFO - validation Successful. From get firmware info the description has been updated for value edvaFirmware for device Test_cwl001 - 159
+2025-07-10 14:23:02,445 - INFO - Getting v1 firmware info for device Test_onu001,vendor ALCATEL,firmware Test_onu001-P20-040625-2025.6 - 152
+2025-07-10 14:23:02,446 - INFO - validation Successful. From get firmware info the description has been updated for value edvaFirmware for device Test_onu001 - 159
+2025-07-10 14:23:02,639 - INFO - Getting v1 firmware info for device Test_snu001,vendor Humax,firmware Test_snu001-P20-040625-2025.6 - 152
+2025-07-10 14:23:02,639 - INFO - validation Successful. From get firmware info the description has been updated for value edvaFirmware for device Test_snu001 - 159

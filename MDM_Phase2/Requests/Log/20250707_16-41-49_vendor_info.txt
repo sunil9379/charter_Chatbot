@@ -1,0 +1,12 @@
+2025-07-07 16:43:17,695 - file11 - INFO - Test initiated for get vendor info - 34
+2025-07-07 16:43:18,011 - file11 - INFO - Response code for Hitron vendor: 200 - 68
+2025-07-07 16:43:18,012 - file11 - INFO - Response text Hitron vendor: {"vendorName":"BelAir","vendorNameAliases":["Hitron Technologies Inc.","HITRO","BelAir","Hitron","Hitron Technologies","HITRON"],"legacyDeviceopedia":{"bhn":{},"twc":{},"glb":{}}} - 69
+2025-07-07 16:43:18,365 - file11 - INFO - Response code for Technicolor vendor: 200 - 68
+2025-07-07 16:43:18,365 - file11 - INFO - Response text Technicolor vendor: {"vendorName":"Cisco","vendorNameAliases":["Thomson","Cisco","Technicolor/Thomson/RCA","TECHNICOLOR","Technicolor","TECHNICOLOR - CISCO"],"legacyDeviceopedia":{"bhn":{},"twc":{},"glb":{}}} - 69
+2025-07-07 16:43:18,713 - file11 - INFO - Response code for Ubee vendor: 200 - 68
+2025-07-07 16:43:18,713 - file11 - INFO - Response text Ubee vendor: {"vendorName":"Ubee","vendorNameAliases":["Ambit","Ubee Ambit","Ubee Interactive","UBEE","AMBIT","Ubee Interactive, Inc.","MOTOROLA - ARRIS","ARRIS","Ubee","Ubee Interactive Corp."],"legacyDeviceopedia":{"bhn":{},"twc":{},"glb":{}}} - 69
+2025-07-07 16:43:19,061 - file11 - INFO - Response code for Motorola vendor: 200 - 68
+2025-07-07 16:43:19,061 - file11 - INFO - Response text Motorola vendor: {"vendorName":"Arris","vendorNameAliases":["Arris","Motorola Corporation","Arris/Motorola","MotorolaInc","Motorola","MTRLC LLC","MOTOROLA","MOTOROLA - ARRIS","ARRIS","Motorola Inc."],"legacyDeviceopedia":{"bhn":{},"twc":{},"glb":{}}} - 69
+2025-07-07 16:43:19,330 - file11 - INFO - Response code for Humax vendor: 200 - 68
+2025-07-07 16:43:19,330 - file11 - INFO - Response text Humax vendor: {"vendorName":"Vecima","vendorNameAliases":["Humax Co., LTD.","HUMAX co.,ltd","HumaxInc","HUMAX","HUMAX Co., Ltd.","Humax co., ltd.","Humax","Vecima"],"legacyDeviceopedia":{"bhn":{},"twc":{},"glb":{}}} - 69
+2025-07-07 16:43:19,330 - file11 - INFO - Test completed for get vendor info - 86

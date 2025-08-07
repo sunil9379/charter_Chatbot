@@ -1,0 +1,17 @@
+2025-07-07 16:43:23,959 - file14 - INFO - Test initiated for create approved tags - 34
+2025-07-07 16:43:24,198 - file14 - INFO - Response code ata model: 201 - 74
+2025-07-07 16:43:24,199 - file14 - INFO - Response text ata model: {'message': 'added approved tag document with id 686babd49261f97a8cb92f47'} - 75
+2025-07-07 16:43:24,455 - file14 - INFO - Tags are created and validated successfully - 83
+2025-07-07 16:43:24,693 - file14 - INFO - Response code mta model: 201 - 74
+2025-07-07 16:43:24,693 - file14 - INFO - Response text mta model: {'message': 'added approved tag document with id 686babd47e717b9fd79ff713'} - 75
+2025-07-07 16:43:24,945 - file14 - INFO - Tags are created and validated successfully - 83
+2025-07-07 16:43:25,180 - file14 - INFO - Response code cwl model: 201 - 74
+2025-07-07 16:43:25,180 - file14 - INFO - Response text cwl model: {'message': 'added approved tag document with id 686babd59bf1e8e6fb661aaa'} - 75
+2025-07-07 16:43:25,416 - file14 - INFO - Tags are created and validated successfully - 83
+2025-07-07 16:43:25,655 - file14 - INFO - Response code onu model: 201 - 74
+2025-07-07 16:43:25,655 - file14 - INFO - Response text onu model: {'message': 'added approved tag document with id 686babd5c2d828c8289ff712'} - 75
+2025-07-07 16:43:25,889 - file14 - INFO - Tags are created and validated successfully - 83
+2025-07-07 16:43:26,126 - file14 - INFO - Response code snu model: 201 - 74
+2025-07-07 16:43:26,126 - file14 - INFO - Response text snu model: {'message': 'added approved tag document with id 686babd6995ae46ee9b92f48'} - 75
+2025-07-07 16:43:26,373 - file14 - INFO - Tags are created and validated successfully - 83
+2025-07-07 16:43:26,374 - file14 - INFO - Test execution completed for creating approved tags - 107

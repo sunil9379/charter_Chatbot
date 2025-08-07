@@ -1,0 +1,109 @@
+{
+    "url": "https://east-deviceopedia-qa-mdm.caas.charterlab.com/",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJkZXZpY2VvcGVkaWEtdG9rZW4gc2NyaXB0IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiREVWSUNFT1BFRElBX2NsaWVudCIsInJvbGVzIjpbIlNEX0NBVEFMT0dfQURNSU4iLCJTRF9GQVNfQURNSU4iLCJTRF9SRFVfQURNSU4iLCJTRF9NT05HT19BRE1JTiIsIlNEX1NVUEVSQURNSU4iXSwibmFtZSI6Im1lIiwicHJlZmVycmVkX3VzZXJuYW1lIjoibWUiLCJnaXZlbl9uYW1lIjoibWUiLCJmYW1pbHlfbmFtZSI6Im1lIn0.9zVJY_R1HY-4OfL25loOAd_OS_E5su7nAgXCtmXONqA",
+    "vendors": [
+        "Hitron",
+        "Technicolor",
+        "Ubee",
+        "Motorola",
+        "Humax"
+    ],
+    "models_v1": [
+        "ata",
+        "mta",
+        "onu",
+        "sonu",
+        "cwl"
+    ],
+    "models_v2": [
+        "ata",
+        "mta",
+        "cwl",
+        "onu",
+        "snu"
+    ],
+    "test_device_payload": {
+        "modelName": "",
+        "vendorName": "",
+        "modelDesc": {
+            "deviceTypeName": "",
+            "deviceType": {
+                "docsisVersion": "1.1"
+            }
+        },
+        "status": "Test",
+        "metadata": {
+            "contextId": "QA",
+            "referenceId": "",
+            "externalId": "",
+            "userId": "P3289462"
+        }
+    },
+    "test_devices": {
+        "ata": "Test_ata001",
+        "mta": "Test_mta001",
+        "cwl": "Test_cwl001",
+        "onu": "Test_onu001",
+        "snu": "Test_snu001"
+    },
+    "imported_devices": {
+        "ata": "Test_ata002",
+        "mta": "Test_mta002",
+        "cwl": "Test_cwl002",
+        "onu": "Test_onu002",
+        "snu": "Test_snu002"
+    },
+    "device_tags": "device-class-test-xyz",
+    "backup_device": "",
+    "backup_devices": "Test_2025-07-07_16:43:35-2025_07_07-11:13:35_AM.tgz",
+    "post_firmware": {
+        "firmwareVersion": "Test_snu001-P20-040625-2025.6",
+        "firmwareFilename": "Test_snu001-P20-040625-2025.6.charter",
+        "firmwareTransferProtocol": "HTTPS",
+        "firmwareTags": {
+            "bhn": {},
+            "twc": {},
+            "global": {}
+        },
+        "upgrade": true,
+        "metadata": {
+            "contextId": "QA01",
+            "referenceId": "Test_snu0016950",
+            "externalId": "Test_snu0016822",
+            "userId": "P3289462"
+        }
+    },
+    "patch_payload": {
+        "defaultVersion": "",
+        "eMtaFirmware": "",
+        "eDvaFirmware": "",
+        "eBbuFirmware": null,
+        "metadata": {
+            "contextId": "qa",
+            "referenceId": "",
+            "externalId": "",
+            "userId": "p3289462"
+        }
+    },
+    "certify_firmwares": {
+        "ata": "Test_ata001-P20-040625-2025.5",
+        "mta": "Test_mta001-P20-040625-2025.5",
+        "cwl": "Test_cwl001-P20-040625-2025.5",
+        "onu": "Test_onu001-P20-040625-2025.5",
+        "snu": "Test_snu001-P20-040625-2025.5"
+    },
+    "updated_certify_firmwares": {
+        "ata": "Test_ata001-P20-040625-2025.6",
+        "mta": "Test_mta001-P20-040625-2025.6",
+        "cwl": "Test_cwl001-P20-040625-2025.6",
+        "onu": "Test_onu001-P20-040625-2025.6",
+        "snu": "Test_snu001-P20-040625-2025.6"
+    },
+    "deploy_firmwares": {
+        "ata": "Test_ata001-P15-040625-2025.5",
+        "mta": "Test_mta001-P15-040625-2025.5",
+        "cwl": "Test_cwl001-P15-040625-2025.5",
+        "onu": "Test_onu001-P15-040625-2025.5",
+        "snu": "Test_snu001-P15-040625-2025.5"
+    }
+}

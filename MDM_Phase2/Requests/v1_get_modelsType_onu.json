@@ -1,0 +1,26 @@
+{
+    "ALCATEL": [
+        "XE-040G-A",
+        "ABE-040G-B1234AB",
+        "Test_onu01",
+        "Test_onu02",
+        "ABE-040G-B1234AB1234",
+        "TESTONU01",
+        "TESTCWL01",
+        "ONUTEST03",
+        "ONUTEST041"
+    ],
+    "ADTRAN": [
+        "1004"
+    ],
+    "Arris": [
+        "C1004"
+    ],
+    "Sumitomo Electric": [
+        "FTE6083",
+        "3714"
+    ],
+    "CIGE": [
+        "XE-99S"
+    ]
+}

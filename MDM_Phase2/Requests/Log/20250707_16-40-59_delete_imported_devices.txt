@@ -1,0 +1,3 @@
+2025-07-07 16:40:59,040 - Requests.Log.logger_setup - INFO - Test initiated to delete device in import stage - 28
+2025-07-07 16:41:20,313 - Requests.Log.logger_setup - ERROR - Exception occurred while device device: HTTPConnectionPool(host='east-deviceopedia-qa-mdm.caas.charterlab.com', port=80): Max retries exceeded with url: /v2/catalog/models?referenceId=/5399&userId=P3289462 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000029D6E615010>, 'Connection to east-deviceopedia-qa-mdm.caas.charterlab.com timed out. (connect timeout=None)')) - 103
+2025-07-07 16:41:20,316 - Requests.Log.logger_setup - INFO - Test completed for removing the device - 112

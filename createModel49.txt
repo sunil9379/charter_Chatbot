@@ -1,0 +1,1 @@
+2025-07-01 13:36:49,488 - INFO - <BrokerConnection client_id=kafka-python-2.2.10, node_id=bootstrap-0 host=kafk-ctec-a04t.enwd.co.sa.charterlab.com:9092 <connecting> [IPv6 ('2600:6ce4:40:1f:250:56ff:fe99:944e', 9092, 0, 0)]>: connecting to kafk-ctec-a04t.enwd.co.sa.charterlab.com:9092 [('2600:6ce4:40:1f:250:56ff:fe99:944e', 9092, 0, 0) IPv6]

@@ -1,0 +1,21 @@
+2025-07-10 14:22:55,361 - INFO - Test initiated for get firmware info v2 - 181
+2025-07-10 14:22:55,572 - INFO - Getting v1 firmware info for device Test_ata001,firmware Test_ata001-P20-040625-2025.6 - 192
+2025-07-10 14:22:55,572 - INFO - Success response received - 197
+2025-07-10 14:22:55,572 - INFO - Success Code: 200 - 198
+2025-07-10 14:22:55,572 - INFO - Response Message: {"firmwareVersion":"Test_ata001-P20-040625-2025.6","firmwareFilename":"Test_ata001-P20-040625-2025.6.charter","firmwareTransferProtocol":"HTTPS","firmwareTags":{"bhn":{},"twc":{},"glb":{}},"upgrade":true} - 199
+2025-07-10 14:22:55,763 - INFO - Getting v1 firmware info for device Test_mta001,firmware Test_mta001-P20-040625-2025.6 - 192
+2025-07-10 14:22:55,764 - INFO - Success response received - 197
+2025-07-10 14:22:55,764 - INFO - Success Code: 200 - 198
+2025-07-10 14:22:55,764 - INFO - Response Message: {"firmwareVersion":"Test_mta001-P20-040625-2025.6","firmwareFilename":"Test_mta001-P20-040625-2025.6.charter","firmwareTransferProtocol":"HTTPS","firmwareTags":{"bhn":{},"twc":{},"glb":{}},"upgrade":true} - 199
+2025-07-10 14:22:55,966 - INFO - Getting v1 firmware info for device Test_cwl001,firmware Test_cwl001-P20-040625-2025.6 - 192
+2025-07-10 14:22:55,966 - INFO - Success response received - 197
+2025-07-10 14:22:55,966 - INFO - Success Code: 200 - 198
+2025-07-10 14:22:55,966 - INFO - Response Message: {"firmwareVersion":"Test_cwl001-P20-040625-2025.6","firmwareFilename":"Test_cwl001-P20-040625-2025.6.charter","firmwareTransferProtocol":"HTTPS","firmwareTags":{"bhn":{},"twc":{},"glb":{}},"upgrade":true} - 199
+2025-07-10 14:22:56,157 - INFO - Getting v1 firmware info for device Test_onu001,firmware Test_onu001-P20-040625-2025.6 - 192
+2025-07-10 14:22:56,158 - INFO - Success response received - 197
+2025-07-10 14:22:56,158 - INFO - Success Code: 200 - 198
+2025-07-10 14:22:56,158 - INFO - Response Message: {"firmwareVersion":"Test_onu001-P20-040625-2025.6","firmwareFilename":"Test_onu001-P20-040625-2025.6.charter","firmwareTransferProtocol":"HTTPS","firmwareTags":{"bhn":{},"twc":{},"glb":{}},"upgrade":true} - 199
+2025-07-10 14:22:56,363 - INFO - Getting v1 firmware info for device Test_snu001,firmware Test_snu001-P20-040625-2025.6 - 192
+2025-07-10 14:22:56,364 - INFO - Success response received - 197
+2025-07-10 14:22:56,364 - INFO - Success Code: 200 - 198
+2025-07-10 14:22:56,364 - INFO - Response Message: {"firmwareVersion":"Test_snu001-P20-040625-2025.6","firmwareFilename":"Test_snu001-P20-040625-2025.6.charter","firmwareTransferProtocol":"HTTPS","firmwareTags":{"bhn":{},"twc":{},"glb":{}},"upgrade":true} - 199

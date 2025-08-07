@@ -1,0 +1,20 @@
+2025-07-07 16:43:33,952 - file16 - INFO - Test initiated for get api which lists the backup files - 40
+2025-07-07 16:43:34,375 - file16 - INFO - Backup list request successful - 65
+2025-07-07 16:43:34,376 - file16 - INFO - Response code: 200
+Response Body: ["Data_before_blake_test-2025_06_19-08:07:13_PM.tgz","TEST-2025_03_11-05:57:45_PM.tgz","TEST_NFS-2025_03_10-07:38:49_PM.tgz","TEST_NFS_02-2025_03_12-08:28:29_PM.tgz","TEST_NFS_03-2025_03_12-09:06:51_PM.tgz","Test-2025_04_17-07:17:27_PM.tgz","Test-2025_05_08-03:27:31_PM.tgz","Test_05_05_2025_Bakup-2025_05_05-09:01:06_AM.tgz","Test_062525_1221-2025_06_25-06:51:46_AM.tgz","Test_2025-06-25_13:56:25-2025_06_25-08:26:25_AM.tgz","Test_2025-07-03_12:42:46-2025_07_03-07:12:46_AM.tgz","Test_2025-07-03_13:50:31-2025_07_03-08:20:31_AM.tgz","Test_2025-07-03_13:59:47-2025_07_03-08:29:47_AM.tgz","Test_2025-07-03_14:15:07-2025_07_03-08:45:07_AM.tgz","Test_2025-07-03_15:27:05-2025_07_03-09:57:06_AM.tgz","Test_2025-07-03_15:32:02-2025_07_03-10:02:02_AM.tgz","Test_2025-07-03_15:33:24-2025_07_03-10:03:24_AM.tgz","Test_2025-07-03_16:49:49-2025_07_03-11:19:49_AM.tgz","Test_2025-07-03_16:56:51-2025_07_03-11:26:51_AM.tgz","Test_2025-07-03_17:17:32-2025_07_03-11:47:32_AM.tgz","Test_2025-07-04_15:05:49-2025_07_04-09:35:49_AM.tgz","Test_2025-07-04_15:12:11-2025_07_04-09:42:12_AM.tgz","Test_2025-07-04_15:32:09-2025_07_04-10:02:10_AM.tgz","apvs-test-with-spinner-2025_06_17-09:44:47_PM.tgz","deviceopedia-snapshot-2025_06_25-07:36:48_AM.tgz","tmp-apvs-backup2-2025_06_17-09:37:08_PM.tgz","tmp-apvs-test-2025_06_17-09:41:56_PM.tgz","tmp-apvs-test-ux-2025_06_17-09:43:25_PM.tgz","tmp-local-apvs-2025_06_17-09:36:07_PM.tgz","tmp.tgz"] - 66
+2025-07-07 16:43:34,376 - file16 - INFO - Test for list backup completed - 75
+2025-07-07 16:43:34,376 - file16 - INFO - ---------------------------------------- - 76
+2025-07-07 16:43:35,378 - file16 - INFO - Test initiated to create the backup file - 84
+2025-07-07 16:47:41,129 - file16 - INFO - Backup file created successfully - 115
+2025-07-07 16:47:41,130 - file16 - INFO - Response code: 202
+Response Body: {"message":"database snapshot creation complete, download the referenced file and move it to a safe storage location.","backup_filename":"Test_2025-07-07_16:43:35-2025_07_07-11:13:35_AM.tgz","documents per collection":{"MDM":656,"DiscoverRules":1,"ApprovedTags":144,"MetaData":2,"Cdb":2},"removed":[""],"location":"East"} - 116
+2025-07-07 16:47:41,434 - file16 - INFO - Backupfile created present in db, validation successful - 122
+2025-07-07 16:47:41,436 - file16 - INFO - Test for list backup completed - 142
+2025-07-07 16:47:41,436 - file16 - INFO - ---------------------------------------- - 143
+2025-07-07 16:47:42,438 - file16 - INFO - Test initiated to download the backup file - 154
+2025-07-07 16:47:42,957 - file16 - INFO - Fetched the downloadable .tgz file successfully - 182
+2025-07-07 16:47:42,957 - file16 - INFO - Response code: 200 - 183
+2025-07-07 16:47:42,957 - file16 - INFO - Response body: {'Date': 'Mon, 07 Jul 2025 11:17:42 GMT', 'Content-Type': 'application/x-tar', 'Content-Length': '133625', 'Connection': 'keep-alive', 'accept-ranges': 'bytes', 'content-disposition': "attachment; filename*=utf-8''Test_2025-07-07_16%3A43%3A35-2025_07_07-11%3A13%3A35_AM.tgz", 'last-modified': 'Mon, 07 Jul 2025 11:16:41 GMT', 'etag': '"fee0b7637e0e23f41874518441a8ad96"', 'x-devmgmt-request-processing-duration': '0.122', 'strict-transport-security': 'max-age=31536000, includeSubDomains; preload', 'x-devmgmt-request-id': '7b65f47f9082987012bd3606d1c1a7c8', 'x-content-type-options': 'nosniff', 'x-frame-options': 'DENY', 'cache-control': 'no-store', 'content-security-policy': "frame-ancestors 'none'"} - 184
+2025-07-07 16:47:42,958 - file16 - INFO - Test_2025-07-07_16:43:35-2025_07_07-11:13:35_AM.tgz is present and same as in content - 198
+2025-07-07 16:47:42,958 - file16 - INFO - Test completed for backup download - 213
+2025-07-07 16:47:42,958 - file16 - INFO - ---------------------------------------- - 214

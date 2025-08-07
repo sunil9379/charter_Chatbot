@@ -1,0 +1,17 @@
+2025-07-10 14:24:12,114 - INFO - Test initiated for Delete Firmware - 21
+2025-07-10 14:24:12,378 - INFO - Firmware Test_ata001-P15-040625-2025.5 Successfully deleted - 63
+2025-07-10 14:24:12,378 - INFO - Response code: 204
+Response body:  - 64
+2025-07-10 14:24:12,619 - INFO - Firmware Test_mta001-P15-040625-2025.5 Successfully deleted - 63
+2025-07-10 14:24:12,620 - INFO - Response code: 204
+Response body:  - 64
+2025-07-10 14:24:12,854 - INFO - Firmware Test_cwl001-P15-040625-2025.5 Successfully deleted - 63
+2025-07-10 14:24:12,854 - INFO - Response code: 204
+Response body:  - 64
+2025-07-10 14:24:13,094 - INFO - Firmware Test_onu001-P15-040625-2025.5 Successfully deleted - 63
+2025-07-10 14:24:13,094 - INFO - Response code: 204
+Response body:  - 64
+2025-07-10 14:24:13,331 - INFO - Firmware Test_snu001-P15-040625-2025.5 Successfully deleted - 63
+2025-07-10 14:24:13,331 - INFO - Response code: 204
+Response body:  - 64
+2025-07-10 14:24:13,331 - INFO - Test completed for deleting the firmware - 79

@@ -1,0 +1,110 @@
+{
+    "Technicolor": [
+        "TC7300.D1E",
+        "TC8715D",
+        "CGA4234DGW",
+        "TC8715"
+    ],
+    "Motorola": [
+        "SBG6580",
+        "SBG6782",
+        "SBG6782-AC",
+        "SBG6782U",
+        "SBG6582",
+        "Test_aut00",
+        "Test_Aut02",
+        "Test_Aut01"
+    ],
+    "Arris": [
+        "DG1670A",
+        "DG860A",
+        "DG1680A",
+        "DG9450",
+        "DG860P2",
+        "DG3260A",
+        "CM9200",
+        "DG3450A",
+        "DG2460A",
+        "DG2470A",
+        "DG1660A",
+        "G20",
+        "DG3270A",
+        "G18"
+    ],
+    "Askey": [
+        "SBE1V1K"
+    ],
+    "TP-Link": [
+        "TC-W7960"
+    ],
+    "SMC Networks": [
+        "D3G1604W-RES",
+        "D3G1604W-CTR",
+        "SMC8013WG"
+    ],
+    "Ubee": [
+        "DDW36C",
+        "DDW365",
+        "DDC2700",
+        "DDW3612RES",
+        "DDW2602",
+        "DDW3612",
+        "UBC1326AA00",
+        "DDW3611",
+        "UBC1301AA00",
+        "DDW2600",
+        "DDW366"
+    ],
+    "Ruckus": [
+        "C110-NA"
+    ],
+    "NETGEAR Inc.": [
+        "CG3000D-RG",
+        "WNDR3800",
+        "R6300v2",
+        "C6300v2",
+        "CG3100D"
+    ],
+    "Pace": [
+        "D5001"
+    ],
+    "Evolution": [
+        "CG3000-EVO3000GW",
+        "VM3000G-EVO2100CM"
+    ],
+    "AVM GmbH": [
+        "6591"
+    ],
+    "Hitron": [
+        "CODA-4582-RES",
+        "CGN-MCT",
+        "CODA-4582-ONE",
+        "CODA-4582",
+        "CGNM-RES",
+        "CODA-5712",
+        "CGNM2250-CTR",
+        "CGNM-CTR",
+        "CGN3U",
+        "CGNM-2250-RES",
+        "CGNM-2250-SHW",
+        "CODA-4582U",
+        "CGNM-2250-SDL",
+        "CGNM-SDL",
+        "CGNM-2252-SDL"
+    ],
+    "Alpha": [
+        "SMG-01PE-23"
+    ],
+    "Cisco": [
+        "DPC3848V",
+        "DPC3848VM",
+        "DPC3828D",
+        "DPC3828"
+    ],
+    "Linksys": [
+        "WCG200 VER.2"
+    ],
+    "SMARTRG": [
+        "SR808AC"
+    ]
+}

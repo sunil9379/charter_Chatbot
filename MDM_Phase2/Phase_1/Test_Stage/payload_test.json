@@ -1,0 +1,92 @@
+{
+
+    "ata": {
+      "modelName": "Test_ata001",
+        "vendorName": "Ubee",
+        "modelDesc": {
+            "deviceTypeName": "ata"
+
+        },
+        "status": "Test",
+        "metadata": {
+            "contextId": "QA",
+            "referenceId": "sd7476",
+            "externalId": "sd7476",
+            "userId": "P3289462"
+        }
+    },
+
+    "mta": {
+      "modelName": "Test_mta001",
+        "vendorName": "Technicolor",
+        "modelDesc": {
+            "deviceTypeName": "mta",
+            "deviceType": {
+                "docsisVersion": "1.1"
+            }
+        },
+        "status": "Test",
+        "metadata": {
+            "contextId": "QA",
+            "referenceId": "sd234",
+            "externalId": "sd234",
+            "userId": "P3289462"
+        }
+    },
+
+    "cwl":
+    {
+      "modelName": "Test_cwl001",
+        "vendorName": "Motorola",
+        "modelDesc": {
+            "deviceTypeName": "cwl",
+            "deviceType": {
+                "docsisVersion": "1.1"
+            }
+        },
+        "status": "Test",
+        "metadata": {
+            "contextId": "QA",
+            "referenceId": "sd124",
+            "externalId": "sd124",
+            "userId": "P3289462"
+        }
+    },
+
+    "onu": {
+      "modelName": "Test_onu001",
+        "vendorName": "ALCATEL",
+        "modelDesc": {
+            "deviceTypeName": "onu",
+            "deviceType": {
+                "docsisVersion": "1.1"
+            }
+        },
+        "status": "Test",
+        "metadata": {
+            "contextId": "QA",
+            "referenceId": "sd890",
+            "externalId": "sd890",
+            "userId": "P3289462"
+        }
+    },
+
+    "snu": {
+      "modelName": "Test_snu001",
+        "vendorName": "Humax",
+        "modelDesc": {
+            "deviceTypeName": "snu",
+            "deviceType": {
+                "docsisVersion": "1.1"
+            }
+        },
+        "status": "Test",
+        "metadata": {
+            "contextId": "QA",
+            "referenceId": "sd098",
+            "externalId": "sd098",
+            "userId": "P3289462"
+        }
+    }
+
+}

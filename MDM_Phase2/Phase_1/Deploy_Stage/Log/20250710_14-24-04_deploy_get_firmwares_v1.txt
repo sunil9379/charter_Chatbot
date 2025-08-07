@@ -1,0 +1,27 @@
+2025-07-10 14:24:04,769 - INFO - Test initiated for get all firmwares v1 - 26
+2025-07-10 14:24:04,963 - INFO - Response for Test_ata001 device - 55
+2025-07-10 14:24:04,964 - INFO - Success response for Test_ata001 device - 58
+2025-07-10 14:24:04,964 - INFO - Success Code: 200
+Body: ["Test_ata001-P15-040625-2025.5","Test_ata001-P15-041025-2025.1","Test_ata001-P15-041025-2025.2","Test_ata001-P20-041025-2025.1"] - 59
+2025-07-10 14:24:05,160 - INFO - Response for Test_mta001 device - 55
+2025-07-10 14:24:05,160 - INFO - Success response for Test_mta001 device - 58
+2025-07-10 14:24:05,161 - INFO - Success Code: 200
+Body: ["Test_mta001-P15-040625-2025.5","Test_mta001-P15-041025-2025.1","Test_mta001-P15-041025-2025.2","Test_mta001-P20-041025-2025.1"] - 59
+2025-07-10 14:24:05,352 - INFO - Response for Test_cwl001 device - 55
+2025-07-10 14:24:05,352 - INFO - Success response for Test_cwl001 device - 58
+2025-07-10 14:24:05,352 - INFO - Success Code: 200
+Body: ["Test_cwl001-P15-040625-2025.1","Test_cwl001-P15-040625-2025.2","Test_cwl001-P15-040625-2025.5","Test_cwl001-P20-040625-2025.1"] - 59
+2025-07-10 14:24:05,563 - INFO - Response for Test_onu001 device - 55
+2025-07-10 14:24:05,563 - INFO - Success response for Test_onu001 device - 58
+2025-07-10 14:24:05,563 - INFO - Success Code: 200
+Body: ["Test_onu001-P15-040625-2025.5","Test_onu001-P15-041025-2025.1","Test_onu001-P15-041025-2025.3","Test_onu001-P20-041025-2025.1"] - 59
+2025-07-10 14:24:05,757 - INFO - Response for Test_snu001 device - 55
+2025-07-10 14:24:05,757 - INFO - Success response for Test_snu001 device - 58
+2025-07-10 14:24:05,757 - INFO - Success Code: 200
+Body: ["Test_snu001-P15-040625-2025.5","Test_snu001-P15-041025-2025.1","Test_snu001-P15-041025-2025.2","Test_snu001-P20-041025-2025.1"] - 59
+2025-07-10 14:24:05,758 - INFO - Start of Validation - 94
+2025-07-10 14:24:05,758 - INFO - Firmware Test_ata001-P15-040625-2025.5 present in response - 100
+2025-07-10 14:24:05,758 - INFO - Firmware Test_mta001-P15-040625-2025.5 present in response - 100
+2025-07-10 14:24:05,758 - INFO - Firmware Test_cwl001-P15-040625-2025.5 present in response - 100
+2025-07-10 14:24:05,758 - INFO - Firmware Test_onu001-P15-040625-2025.5 present in response - 100
+2025-07-10 14:24:05,758 - INFO - Firmware Test_snu001-P15-040625-2025.5 present in response - 100
